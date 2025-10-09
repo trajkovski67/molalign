@@ -122,7 +122,7 @@ def main(fileA, fileB, idxA, angles=[0], prefix="complex"):
 
     # Save all complexes in one npz file
     np.savez(f"{prefix}_all_complexes.npz", **all_complexes)
-    print(f"✅ Saved {prefix}_all_complexes.npz and XYZ files for each complex.")
+    print(f"*** Saved {prefix}_all_complexes.npz and XYZ files for each complex.")
 
 if __name__=="__main__":
     if len(sys.argv)<4:
