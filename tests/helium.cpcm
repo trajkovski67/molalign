@@ -1,0 +1,36 @@
+1                # Number of atoms
+194              # Number of surface points
+2                # Surface type
+0                # Epsilon function type
+1                # Print level
+0                # FEps X flag
+0                # DRACO scheme
+
+110              # Number of Leb. points  (used if Isodens = 0)
+
+1                # Isodensity discr. scheme
+
+     5.000000000         # Threshold for H atoms (Ncharges/Angstroem^2) for Isodens = 1
+     5.000000000         # Threshold for non-H atoms (Ncharges/Angstroem^2) for Isodens = 1
+
+     0.000000000         # FEps X parameter
+
+     0.000000000         # cutoff segment area (a.u.)
+    0.00000010000000     # cutoff switching function
+
+   134.033408522         # Volume
+   126.656115965         # Area
+
+    -0.000000012         # CPCM dielectric energy
+     0.000087236         # One-electron operator energy
+
+#------------------------------------------------------------
+# CARTESIAN COORDINATES (A.U.) + RADII (A.U.) + ATOMIC NUMBER
+#------------------------------------------------------------
+     0.000000000       0.000000000       0.000000000      3.174739905  2
+
+#------------------------------------------------------------
+# SURFACE POINTS (A.U.)    (Hint - charge NOT scaled by FEps)
+#------------------------------------------------------------
+          X                 Y                 Z               area            potential          charge            w_leb             Switch_F          G_width       atom
+     3.174739905      -0.000000000       0.000000000       0.225744318       0.000088348      -0.000000526       0.022397551  1.00000000000000  10.31937700043709      0

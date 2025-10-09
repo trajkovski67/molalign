@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: molalign
+Version: 0.1.0
+Summary: Toolkit for generating solute-solvent arrangements with subseqental xtb energy scanning
+Author-email: Aleksandar Trajkovski <s37atraj@uni-bonn.de>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+**molalign** is a toolkit for automating molecular alignment, CPCM data parsing, and xTB result extraction.
+## Installation
+```bash
+pip install -e .

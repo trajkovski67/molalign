@@ -1,0 +1,17 @@
+[project]
+name = "molalign"
+version = "0.1.0"
+description = "Toolkit for generating solute-solvent arrangements with subseqental xtb energy scanning"
+authors = [{name = "Aleksandar Trajkovski", email = "s37atraj@uni-bonn.de"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy"]
+[project.scripts]
+cpcm-reader = "molalign.cpcm_to_npz:main"
+align-grid = "molalign.all_grid:main"
+xtb-scan = "molalign.xtb_scan:main"
+xtb-extract = "molalign.extract_xtb_results:main"
+molalign-run = "molalign.driver:main"
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
