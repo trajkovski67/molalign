@@ -12,6 +12,10 @@ align-grid = "molalign.all_grid:main"
 xtb-scan = "molalign.xtb_scan:main"
 xtb-extract = "molalign.extract_xtb_results:main"
 molalign-run = "molalign.driver:main"
+plot-grid-energy = "molalign.plot_grid_point_energy:main"
+plot-normals = "molalign.plot_normals:main"
+boltzmann = "molalign.boltzmann_average:main"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+

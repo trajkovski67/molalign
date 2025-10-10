@@ -104,12 +104,12 @@ def main():
 
     # Save NPZ
     np.savez(f"{prefix}_data.npz", atoms=atoms_array, grids=grid_array)
-    print(f"✅ Saved NPZ with {atoms_array.shape[0]} atoms and {grid_array.shape[0]} gridpoints.")
+    print(f"*** Saved NPZ with {atoms_array.shape[0]} atoms and {grid_array.shape[0]} gridpoints.")
 
     # Save TXT
     txt_file = f"{prefix}_data.txt"
     save_txt(txt_file, atoms_array, grid_array)
-    print(f"✅ Saved human-readable TXT: {txt_file}")
+    print(f"*** Saved human-readable TXT: {txt_file}")
 
 if __name__ == "__main__":
     main()

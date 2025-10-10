@@ -63,7 +63,7 @@ def main():
     # Step 4: Extract results
     run_command(["xtb-extract", complexes_dir])
 
-    print("\n✅ All pipeline steps completed successfully!")
+    print("\n*** All pipeline steps completed successfully!")
 
 
 if __name__ == "__main__":

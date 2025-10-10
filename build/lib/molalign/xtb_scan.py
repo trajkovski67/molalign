@@ -9,7 +9,7 @@ import sys
 def run_xtb_scans(xyz_root: str, charge: int = 0):
     """Run xTB single-point calculations on all .xyz files in a folder tree."""
     if not os.path.isdir(xyz_root):
-        print(f"❌ Error: '{xyz_root}' is not a directory.", file=sys.stderr)
+        print(f" ERROR: '{xyz_root}' is not a directory.", file=sys.stderr)
         sys.exit(1)
 
     # Find all xyz files recursively
@@ -23,7 +23,7 @@ def run_xtb_scans(xyz_root: str, charge: int = 0):
 
     for xyz in xyz_files:
         out_file = os.path.splitext(xyz)[0] + ".out"
-        print(f"▶ Running xTB for {xyz} → {out_file}")
+        #print(f"▶ Running xTB for {xyz} → {out_file}")
         try:
             subprocess.run(
                 ["xtb", xyz, "--sp", f"--chrg", str(charge)],
@@ -34,7 +34,7 @@ def run_xtb_scans(xyz_root: str, charge: int = 0):
         except subprocess.CalledProcessError as e:
             print(f"  ⚠️ xTB failed for {xyz}: {e}")
 
-    print("✅ All calculations attempted.")
+    print("*** All calculations attempted.")
 
 
 def main():
