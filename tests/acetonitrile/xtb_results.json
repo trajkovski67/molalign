@@ -1,0 +1,4214 @@
+{
+  "gp392": {
+    "b0_rot0": {
+      "energy_Eh": -8.578541390157,
+      "grad_norm_Eh_per_a": 0.104945762305
+    }
+  },
+  "gp8": {
+    "b0_rot0": {
+      "energy_Eh": -8.584241256135,
+      "grad_norm_Eh_per_a": 0.083724617026
+    }
+  },
+  "gp410": {
+    "b0_rot0": {
+      "energy_Eh": -8.583996721157,
+      "grad_norm_Eh_per_a": 0.079855756026
+    }
+  },
+  "gp197": {
+    "b0_rot0": {
+      "energy_Eh": -8.58459795209,
+      "grad_norm_Eh_per_a": 0.079958274378
+    }
+  },
+  "gp78": {
+    "b0_rot0": {
+      "energy_Eh": -8.58399414509,
+      "grad_norm_Eh_per_a": 0.083494772219
+    }
+  },
+  "gp387": {
+    "b0_rot0": {
+      "energy_Eh": -8.614412473544,
+      "grad_norm_Eh_per_a": 0.124830532873
+    }
+  },
+  "gp337": {
+    "b0_rot0": {
+      "energy_Eh": -8.580486862635,
+      "grad_norm_Eh_per_a": 0.108869491378
+    }
+  },
+  "gp100": {
+    "b0_rot0": {
+      "energy_Eh": -8.596109581537,
+      "grad_norm_Eh_per_a": 0.08638377021
+    }
+  },
+  "gp533": {
+    "b0_rot0": {
+      "energy_Eh": -8.57436876354,
+      "grad_norm_Eh_per_a": 0.09004023754
+    }
+  },
+  "gp499": {
+    "b0_rot0": {
+      "energy_Eh": -8.583396824038,
+      "grad_norm_Eh_per_a": 0.082149462927
+    }
+  },
+  "gp694": {
+    "b0_rot0": {
+      "energy_Eh": -8.611340763817,
+      "grad_norm_Eh_per_a": 0.096456395997
+    }
+  },
+  "gp20": {
+    "b0_rot0": {
+      "energy_Eh": -8.575312334011,
+      "grad_norm_Eh_per_a": 0.07798558879
+    }
+  },
+  "gp578": {
+    "b0_rot0": {
+      "energy_Eh": -8.604486635134,
+      "grad_norm_Eh_per_a": 0.104530053322
+    }
+  },
+  "gp452": {
+    "b0_rot0": {
+      "energy_Eh": -8.58289142091,
+      "grad_norm_Eh_per_a": 0.083245444967
+    }
+  },
+  "gp52": {
+    "b0_rot0": {
+      "energy_Eh": -8.579918214375,
+      "grad_norm_Eh_per_a": 0.085770142325
+    }
+  },
+  "gp425": {
+    "b0_rot0": {
+      "energy_Eh": -8.582923854715,
+      "grad_norm_Eh_per_a": 0.082207161091
+    }
+  },
+  "gp295": {
+    "b0_rot0": {
+      "energy_Eh": -8.554532914879,
+      "grad_norm_Eh_per_a": 0.053022901504
+    }
+  },
+  "gp670": {
+    "b0_rot0": {
+      "energy_Eh": -8.611524141071,
+      "grad_norm_Eh_per_a": 0.096496308794
+    }
+  },
+  "gp376": {
+    "b0_rot0": {
+      "energy_Eh": -8.583233295938,
+      "grad_norm_Eh_per_a": 0.104842727066
+    }
+  },
+  "gp318": {
+    "b0_rot0": {
+      "energy_Eh": -8.571977786812,
+      "grad_norm_Eh_per_a": 0.102423986475
+    }
+  },
+  "gp344": {
+    "b0_rot0": {
+      "energy_Eh": -8.577176160191,
+      "grad_norm_Eh_per_a": 0.093172180446
+    }
+  },
+  "gp151": {
+    "b0_rot0": {
+      "energy_Eh": -8.562342210253,
+      "grad_norm_Eh_per_a": 0.060297032155
+    }
+  },
+  "gp629": {
+    "b0_rot0": {
+      "energy_Eh": -8.597394222191,
+      "grad_norm_Eh_per_a": 0.110322600519
+    }
+  },
+  "gp50": {
+    "b0_rot0": {
+      "energy_Eh": -8.589996311899,
+      "grad_norm_Eh_per_a": 0.084978880382
+    }
+  },
+  "gp605": {
+    "b0_rot0": {
+      "energy_Eh": -8.609157612687,
+      "grad_norm_Eh_per_a": 0.099361888128
+    }
+  },
+  "gp685": {
+    "b0_rot0": {
+      "energy_Eh": -8.619038296383,
+      "grad_norm_Eh_per_a": 0.080951481223
+    }
+  },
+  "gp325": {
+    "b0_rot0": {
+      "energy_Eh": -8.60382449518,
+      "grad_norm_Eh_per_a": 0.128300704231
+    }
+  },
+  "gp614": {
+    "b0_rot0": {
+      "energy_Eh": -8.620784637084,
+      "grad_norm_Eh_per_a": 0.074453787666
+    }
+  },
+  "gp418": {
+    "b0_rot0": {
+      "energy_Eh": -8.582902042974,
+      "grad_norm_Eh_per_a": 0.08412657705
+    }
+  },
+  "gp356": {
+    "b0_rot0": {
+      "energy_Eh": -8.60140114236,
+      "grad_norm_Eh_per_a": 0.115695248179
+    }
+  },
+  "gp81": {
+    "b0_rot0": {
+      "energy_Eh": -8.576003769422,
+      "grad_norm_Eh_per_a": 0.082736893501
+    }
+  },
+  "gp540": {
+    "b0_rot0": {
+      "energy_Eh": -8.583504854541,
+      "grad_norm_Eh_per_a": 0.079799019022
+    }
+  },
+  "gp264": {
+    "b0_rot0": {
+      "energy_Eh": -8.554184940557,
+      "grad_norm_Eh_per_a": 0.043720264815
+    }
+  },
+  "gp678": {
+    "b0_rot0": {
+      "energy_Eh": -8.610613487131,
+      "grad_norm_Eh_per_a": 0.097408471039
+    }
+  },
+  "gp90": {
+    "b0_rot0": {
+      "energy_Eh": -8.570308240098,
+      "grad_norm_Eh_per_a": 0.084990296275
+    }
+  },
+  "gp97": {
+    "b0_rot0": {
+      "energy_Eh": -8.570983583464,
+      "grad_norm_Eh_per_a": 0.081211972426
+    }
+  },
+  "gp658": {
+    "b0_rot0": {
+      "energy_Eh": -8.615765340926,
+      "grad_norm_Eh_per_a": 0.088942210621
+    }
+  },
+  "gp448": {
+    "b0_rot0": {
+      "energy_Eh": -8.581735624989,
+      "grad_norm_Eh_per_a": 0.091419883851
+    }
+  },
+  "gp312": {
+    "b0_rot0": {
+      "energy_Eh": -8.597774246621,
+      "grad_norm_Eh_per_a": 0.113530384674
+    }
+  },
+  "gp628": {
+    "b0_rot0": {
+      "energy_Eh": -8.618284536904,
+      "grad_norm_Eh_per_a": 0.083038561578
+    }
+  },
+  "gp561": {
+    "b0_rot0": {
+      "energy_Eh": -8.588378245747,
+      "grad_norm_Eh_per_a": 0.075694271442
+    }
+  },
+  "gp350": {
+    "b0_rot0": {
+      "energy_Eh": -8.556108634348,
+      "grad_norm_Eh_per_a": 0.044764084372
+    }
+  },
+  "gp617": {
+    "b0_rot0": {
+      "energy_Eh": -8.615677500031,
+      "grad_norm_Eh_per_a": 0.089248326871
+    }
+  },
+  "gp438": {
+    "b0_rot0": {
+      "energy_Eh": -8.580489728629,
+      "grad_norm_Eh_per_a": 0.089205333547
+    }
+  },
+  "gp6": {
+    "b0_rot0": {
+      "energy_Eh": -8.569581074626,
+      "grad_norm_Eh_per_a": 0.085244691582
+    }
+  },
+  "gp86": {
+    "b0_rot0": {
+      "energy_Eh": -8.569054714335,
+      "grad_norm_Eh_per_a": 0.073727578651
+    }
+  },
+  "gp259": {
+    "b0_rot0": {
+      "energy_Eh": -8.639722886753,
+      "grad_norm_Eh_per_a": 0.137836999165
+    }
+  },
+  "gp166": {
+    "b0_rot0": {
+      "energy_Eh": -8.579420996212,
+      "grad_norm_Eh_per_a": 0.072790020208
+    }
+  },
+  "gp586": {
+    "b0_rot0": {
+      "energy_Eh": -8.620441672208,
+      "grad_norm_Eh_per_a": 0.075892363526
+    }
+  },
+  "gp191": {
+    "b0_rot0": {
+      "energy_Eh": -8.56100288736,
+      "grad_norm_Eh_per_a": 0.078013355974
+    }
+  },
+  "gp601": {
+    "b0_rot0": {
+      "energy_Eh": -8.610339124886,
+      "grad_norm_Eh_per_a": 0.09794522299
+    }
+  },
+  "gp258": {
+    "b0_rot0": {
+      "energy_Eh": -8.55196438825,
+      "grad_norm_Eh_per_a": 0.035127134054
+    }
+  },
+  "gp538": {
+    "b0_rot0": {
+      "energy_Eh": -8.581772502832,
+      "grad_norm_Eh_per_a": 0.091202072422
+    }
+  },
+  "gp315": {
+    "b0_rot0": {
+      "energy_Eh": -8.572097491321,
+      "grad_norm_Eh_per_a": 0.101836952851
+    }
+  },
+  "gp211": {
+    "b0_rot0": {
+      "energy_Eh": -8.574602029272,
+      "grad_norm_Eh_per_a": 0.07524726462
+    }
+  },
+  "gp4": {
+    "b0_rot0": {
+      "energy_Eh": -8.579387287301,
+      "grad_norm_Eh_per_a": 0.0790390076
+    }
+  },
+  "gp481": {
+    "b0_rot0": {
+      "energy_Eh": -8.574124069199,
+      "grad_norm_Eh_per_a": 0.089350539155
+    }
+  },
+  "gp168": {
+    "b0_rot0": {
+      "energy_Eh": -8.584522070716,
+      "grad_norm_Eh_per_a": 0.078688389557
+    }
+  },
+  "gp518": {
+    "b0_rot0": {
+      "energy_Eh": -8.579745800756,
+      "grad_norm_Eh_per_a": 0.0875156478
+    }
+  },
+  "gp209": {
+    "b0_rot0": {
+      "energy_Eh": -8.572258444967,
+      "grad_norm_Eh_per_a": 0.087828758552
+    }
+  },
+  "gp613": {
+    "b0_rot0": {
+      "energy_Eh": -8.593323888108,
+      "grad_norm_Eh_per_a": 0.112706456507
+    }
+  },
+  "gp290": {
+    "b0_rot0": {
+      "energy_Eh": -8.552281335068,
+      "grad_norm_Eh_per_a": 0.03629313512
+    }
+  },
+  "gp692": {
+    "b0_rot0": {
+      "energy_Eh": -8.591663797047,
+      "grad_norm_Eh_per_a": 0.102667809965
+    }
+  },
+  "gp447": {
+    "b0_rot0": {
+      "energy_Eh": -8.580226422845,
+      "grad_norm_Eh_per_a": 0.07684384251
+    }
+  },
+  "gp506": {
+    "b0_rot0": {
+      "energy_Eh": -8.575258299355,
+      "grad_norm_Eh_per_a": 0.087043709622
+    }
+  },
+  "gp82": {
+    "b0_rot0": {
+      "energy_Eh": -8.572076080777,
+      "grad_norm_Eh_per_a": 0.07836855596
+    }
+  },
+  "gp433": {
+    "b0_rot0": {
+      "energy_Eh": -8.582718441208,
+      "grad_norm_Eh_per_a": 0.081508144356
+    }
+  },
+  "gp604": {
+    "b0_rot0": {
+      "energy_Eh": -8.595588989726,
+      "grad_norm_Eh_per_a": 0.111493409571
+    }
+  },
+  "gp638": {
+    "b0_rot0": {
+      "energy_Eh": -8.593777724579,
+      "grad_norm_Eh_per_a": 0.112630029651
+    }
+  },
+  "gp330": {
+    "b0_rot0": {
+      "energy_Eh": -8.559277463959,
+      "grad_norm_Eh_per_a": 0.082770678635
+    }
+  },
+  "gp705": {
+    "b0_rot0": {
+      "energy_Eh": -8.61990806732,
+      "grad_norm_Eh_per_a": 0.077982008015
+    }
+  },
+  "gp430": {
+    "b0_rot0": {
+      "energy_Eh": -8.578164699479,
+      "grad_norm_Eh_per_a": 0.094664279654
+    }
+  },
+  "gp252": {
+    "b0_rot0": {
+      "energy_Eh": -8.584358552721,
+      "grad_norm_Eh_per_a": 0.107784959195
+    }
+  },
+  "gp570": {
+    "b0_rot0": {
+      "energy_Eh": -8.590276259992,
+      "grad_norm_Eh_per_a": 0.116091755965
+    }
+  },
+  "gp677": {
+    "b0_rot0": {
+      "energy_Eh": -8.602766279605,
+      "grad_norm_Eh_per_a": 0.105880259894
+    }
+  },
+  "gp636": {
+    "b0_rot0": {
+      "energy_Eh": -8.597580953974,
+      "grad_norm_Eh_per_a": 0.110149930514
+    }
+  },
+  "gp336": {
+    "b0_rot0": {
+      "energy_Eh": -8.600155926601,
+      "grad_norm_Eh_per_a": 0.12001618902
+    }
+  },
+  "gp114": {
+    "b0_rot0": {
+      "energy_Eh": -8.594947323867,
+      "grad_norm_Eh_per_a": 0.087408041485
+    }
+  },
+  "gp323": {
+    "b0_rot0": {
+      "energy_Eh": -8.561351597119,
+      "grad_norm_Eh_per_a": 0.09093159064
+    }
+  },
+  "gp141": {
+    "b0_rot0": {
+      "energy_Eh": -8.57974745993,
+      "grad_norm_Eh_per_a": 0.072349451105
+    }
+  },
+  "gp474": {
+    "b0_rot0": {
+      "energy_Eh": -8.579538858974,
+      "grad_norm_Eh_per_a": 0.087664858943
+    }
+  },
+  "gp589": {
+    "b0_rot0": {
+      "energy_Eh": -8.618035074825,
+      "grad_norm_Eh_per_a": 0.083820472179
+    }
+  },
+  "gp111": {
+    "b0_rot0": {
+      "energy_Eh": -8.55793957228,
+      "grad_norm_Eh_per_a": 0.078688649984
+    }
+  },
+  "gp592": {
+    "b0_rot0": {
+      "energy_Eh": -8.617443453608,
+      "grad_norm_Eh_per_a": 0.085309811486
+    }
+  },
+  "gp525": {
+    "b0_rot0": {
+      "energy_Eh": -8.590220748397,
+      "grad_norm_Eh_per_a": 0.083567779877
+    }
+  },
+  "gp537": {
+    "b0_rot0": {
+      "energy_Eh": -8.58053657597,
+      "grad_norm_Eh_per_a": 0.099480743699
+    }
+  },
+  "gp92": {
+    "b0_rot0": {
+      "energy_Eh": -8.574704520996,
+      "grad_norm_Eh_per_a": 0.071348192283
+    }
+  },
+  "gp497": {
+    "b0_rot0": {
+      "energy_Eh": -8.582829562732,
+      "grad_norm_Eh_per_a": 0.084291941568
+    }
+  },
+  "gp640": {
+    "b0_rot0": {
+      "energy_Eh": -8.596587352748,
+      "grad_norm_Eh_per_a": 0.110827144021
+    }
+  },
+  "gp266": {
+    "b0_rot0": {
+      "energy_Eh": -8.553812089589,
+      "grad_norm_Eh_per_a": 0.036552942995
+    }
+  },
+  "gp351": {
+    "b0_rot0": {
+      "energy_Eh": -8.559319352091,
+      "grad_norm_Eh_per_a": 0.083025489943
+    }
+  },
+  "gp144": {
+    "b0_rot0": {
+      "energy_Eh": -8.569205966474,
+      "grad_norm_Eh_per_a": 0.055285623758
+    }
+  },
+  "gp458": {
+    "b0_rot0": {
+      "energy_Eh": -8.583402938965,
+      "grad_norm_Eh_per_a": 0.080402989146
+    }
+  },
+  "gp413": {
+    "b0_rot0": {
+      "energy_Eh": -8.57850329687,
+      "grad_norm_Eh_per_a": 0.089913358985
+    }
+  },
+  "gp27": {
+    "b0_rot0": {
+      "energy_Eh": -8.57002898087,
+      "grad_norm_Eh_per_a": 0.08153036475
+    }
+  },
+  "gp59": {
+    "b0_rot0": {
+      "energy_Eh": -8.577621733787,
+      "grad_norm_Eh_per_a": 0.081435312893
+    }
+  },
+  "gp28": {
+    "b0_rot0": {
+      "energy_Eh": -8.590753546184,
+      "grad_norm_Eh_per_a": 0.086454066285
+    }
+  },
+  "gp619": {
+    "b0_rot0": {
+      "energy_Eh": -8.615567269066,
+      "grad_norm_Eh_per_a": 0.089417277718
+    }
+  },
+  "gp479": {
+    "b0_rot0": {
+      "energy_Eh": -8.583916549706,
+      "grad_norm_Eh_per_a": 0.091919920961
+    }
+  },
+  "gp300": {
+    "b0_rot0": {
+      "energy_Eh": -8.560903594626,
+      "grad_norm_Eh_per_a": 0.060731644245
+    }
+  },
+  "gp286": {
+    "b0_rot0": {
+      "energy_Eh": -8.55326172768,
+      "grad_norm_Eh_per_a": 0.040987970329
+    }
+  },
+  "gp394": {
+    "b0_rot0": {
+      "energy_Eh": -8.589555892372,
+      "grad_norm_Eh_per_a": 0.10963187414
+    }
+  },
+  "gp313": {
+    "b0_rot0": {
+      "energy_Eh": -8.587497965914,
+      "grad_norm_Eh_per_a": 0.094620803046
+    }
+  },
+  "gp414": {
+    "b0_rot0": {
+      "energy_Eh": -8.5744266396,
+      "grad_norm_Eh_per_a": 0.090369473478
+    }
+  },
+  "gp631": {
+    "b0_rot0": {
+      "energy_Eh": -8.62037525654,
+      "grad_norm_Eh_per_a": 0.076184819738
+    }
+  },
+  "gp215": {
+    "b0_rot0": {
+      "energy_Eh": -8.57033441528,
+      "grad_norm_Eh_per_a": 0.074743185377
+    }
+  },
+  "gp304": {
+    "b0_rot0": {
+      "energy_Eh": -8.578083768913,
+      "grad_norm_Eh_per_a": 0.109588315476
+    }
+  },
+  "gp320": {
+    "b0_rot0": {
+      "energy_Eh": -8.567847140836,
+      "grad_norm_Eh_per_a": 0.098580305611
+    }
+  },
+  "gp623": {
+    "b0_rot0": {
+      "energy_Eh": -8.601640797328,
+      "grad_norm_Eh_per_a": 0.107237746155
+    }
+  },
+  "gp396": {
+    "b0_rot0": {
+      "energy_Eh": -8.573825214724,
+      "grad_norm_Eh_per_a": 0.102037365751
+    }
+  },
+  "gp133": {
+    "b0_rot0": {
+      "energy_Eh": -8.579645352627,
+      "grad_norm_Eh_per_a": 0.072815493752
+    }
+  },
+  "gp502": {
+    "b0_rot0": {
+      "energy_Eh": -8.57953207206,
+      "grad_norm_Eh_per_a": 0.097170974015
+    }
+  },
+  "gp93": {
+    "b0_rot0": {
+      "energy_Eh": -8.572735632626,
+      "grad_norm_Eh_per_a": 0.088317346031
+    }
+  },
+  "gp157": {
+    "b0_rot0": {
+      "energy_Eh": -8.593321724312,
+      "grad_norm_Eh_per_a": 0.086785620256
+    }
+  },
+  "gp572": {
+    "b0_rot0": {
+      "energy_Eh": -8.614645300812,
+      "grad_norm_Eh_per_a": 0.091216536654
+    }
+  },
+  "gp657": {
+    "b0_rot0": {
+      "energy_Eh": -8.621259263446,
+      "grad_norm_Eh_per_a": 0.072155984835
+    }
+  },
+  "gp240": {
+    "b0_rot0": {
+      "energy_Eh": -8.552576942641,
+      "grad_norm_Eh_per_a": 0.034032435819
+    }
+  },
+  "gp32": {
+    "b0_rot0": {
+      "energy_Eh": -8.575927103165,
+      "grad_norm_Eh_per_a": 0.082820493969
+    }
+  },
+  "gp327": {
+    "b0_rot0": {
+      "energy_Eh": -8.601479659396,
+      "grad_norm_Eh_per_a": 0.126961112078
+    }
+  },
+  "gp582": {
+    "b0_rot0": {
+      "energy_Eh": -8.592192664295,
+      "grad_norm_Eh_per_a": 0.113193808191
+    }
+  },
+  "gp646": {
+    "b0_rot0": {
+      "energy_Eh": -8.592735307582,
+      "grad_norm_Eh_per_a": 0.111305911539
+    }
+  },
+  "gp160": {
+    "b0_rot0": {
+      "energy_Eh": -8.568009710536,
+      "grad_norm_Eh_per_a": 0.056464032547
+    }
+  },
+  "gp222": {
+    "b0_rot0": {
+      "energy_Eh": -8.595796108964,
+      "grad_norm_Eh_per_a": 0.08669226063
+    }
+  },
+  "gp54": {
+    "b0_rot0": {
+      "energy_Eh": -8.5739929391,
+      "grad_norm_Eh_per_a": 0.083930519286
+    }
+  },
+  "gp35": {
+    "b0_rot0": {
+      "energy_Eh": -8.584431533316,
+      "grad_norm_Eh_per_a": 0.081657671873
+    }
+  },
+  "gp214": {
+    "b0_rot0": {
+      "energy_Eh": -8.57518062656,
+      "grad_norm_Eh_per_a": 0.07612449822
+    }
+  },
+  "gp643": {
+    "b0_rot0": {
+      "energy_Eh": -8.598396691202,
+      "grad_norm_Eh_per_a": 0.109631885122
+    }
+  },
+  "gp188": {
+    "b0_rot0": {
+      "energy_Eh": -8.561177326367,
+      "grad_norm_Eh_per_a": 0.07973831681
+    }
+  },
+  "gp534": {
+    "b0_rot0": {
+      "energy_Eh": -8.582696462205,
+      "grad_norm_Eh_per_a": 0.084171277833
+    }
+  },
+  "gp229": {
+    "b0_rot0": {
+      "energy_Eh": -8.555401301714,
+      "grad_norm_Eh_per_a": 0.044562287466
+    }
+  },
+  "gp435": {
+    "b0_rot0": {
+      "energy_Eh": -8.582262754261,
+      "grad_norm_Eh_per_a": 0.083476897444
+    }
+  },
+  "gp3": {
+    "b0_rot0": {
+      "energy_Eh": -8.578719356133,
+      "grad_norm_Eh_per_a": 0.081597085471
+    }
+  },
+  "gp531": {
+    "b0_rot0": {
+      "energy_Eh": -8.579794085426,
+      "grad_norm_Eh_per_a": 0.086903082113
+    }
+  },
+  "gp555": {
+    "b0_rot0": {
+      "energy_Eh": -8.582524581576,
+      "grad_norm_Eh_per_a": 0.084244573743
+    }
+  },
+  "gp471": {
+    "b0_rot0": {
+      "energy_Eh": -8.584868490217,
+      "grad_norm_Eh_per_a": 0.077262582264
+    }
+  },
+  "gp346": {
+    "b0_rot0": {
+      "energy_Eh": -8.632272703145,
+      "grad_norm_Eh_per_a": 0.134150744503
+    }
+  },
+  "gp432": {
+    "b0_rot0": {
+      "energy_Eh": -8.577415811599,
+      "grad_norm_Eh_per_a": 0.091432978296
+    }
+  },
+  "gp248": {
+    "b0_rot0": {
+      "energy_Eh": -8.570548720546,
+      "grad_norm_Eh_per_a": 0.098472358705
+    }
+  },
+  "gp359": {
+    "b0_rot0": {
+      "energy_Eh": -8.619039762336,
+      "grad_norm_Eh_per_a": 0.127699591922
+    }
+  },
+  "gp390": {
+    "b0_rot0": {
+      "energy_Eh": -8.595404537204,
+      "grad_norm_Eh_per_a": 0.113604508145
+    }
+  },
+  "gp361": {
+    "b0_rot0": {
+      "energy_Eh": -8.573444343672,
+      "grad_norm_Eh_per_a": 0.086919192473
+    }
+  },
+  "gp651": {
+    "b0_rot0": {
+      "energy_Eh": -8.618631086325,
+      "grad_norm_Eh_per_a": 0.082049459825
+    }
+  },
+  "gp301": {
+    "b0_rot0": {
+      "energy_Eh": -8.57372820228,
+      "grad_norm_Eh_per_a": 0.099467449982
+    }
+  },
+  "gp39": {
+    "b0_rot0": {
+      "energy_Eh": -8.568785926085,
+      "grad_norm_Eh_per_a": 0.077502391237
+    }
+  },
+  "gp469": {
+    "b0_rot0": {
+      "energy_Eh": -8.582529949605,
+      "grad_norm_Eh_per_a": 0.08354481811
+    }
+  },
+  "gp595": {
+    "b0_rot0": {
+      "energy_Eh": -8.61560747786,
+      "grad_norm_Eh_per_a": 0.089237756512
+    }
+  },
+  "gp577": {
+    "b0_rot0": {
+      "energy_Eh": -8.618929525812,
+      "grad_norm_Eh_per_a": 0.081167740992
+    }
+  },
+  "gp288": {
+    "b0_rot0": {
+      "energy_Eh": -8.560584607182,
+      "grad_norm_Eh_per_a": 0.06050810871
+    }
+  },
+  "gp544": {
+    "b0_rot0": {
+      "energy_Eh": -8.586985169712,
+      "grad_norm_Eh_per_a": 0.079443988317
+    }
+  },
+  "gp584": {
+    "b0_rot0": {
+      "energy_Eh": -8.605563656406,
+      "grad_norm_Eh_per_a": 0.103300897185
+    }
+  },
+  "gp681": {
+    "b0_rot0": {
+      "energy_Eh": -8.601547210342,
+      "grad_norm_Eh_per_a": 0.106955769619
+    }
+  },
+  "gp530": {
+    "b0_rot0": {
+      "energy_Eh": -8.582895089467,
+      "grad_norm_Eh_per_a": 0.084379773744
+    }
+  },
+  "gp575": {
+    "b0_rot0": {
+      "energy_Eh": -8.605788918193,
+      "grad_norm_Eh_per_a": 0.103019284299
+    }
+  },
+  "gp137": {
+    "b0_rot0": {
+      "energy_Eh": -8.571058523696,
+      "grad_norm_Eh_per_a": 0.079653357665
+    }
+  },
+  "gp699": {
+    "b0_rot0": {
+      "energy_Eh": -8.612779331618,
+      "grad_norm_Eh_per_a": 0.094507042771
+    }
+  },
+  "gp223": {
+    "b0_rot0": {
+      "energy_Eh": -8.56706214279,
+      "grad_norm_Eh_per_a": 0.086297508545
+    }
+  },
+  "gp226": {
+    "b0_rot0": {
+      "energy_Eh": -8.554078088417,
+      "grad_norm_Eh_per_a": 0.043204170051
+    }
+  },
+  "gp115": {
+    "b0_rot0": {
+      "energy_Eh": -8.561480658422,
+      "grad_norm_Eh_per_a": 0.080397542452
+    }
+  },
+  "gp322": {
+    "b0_rot0": {
+      "energy_Eh": -8.554287631434,
+      "grad_norm_Eh_per_a": 0.035463201468
+    }
+  },
+  "gp464": {
+    "b0_rot0": {
+      "energy_Eh": -8.581380966874,
+      "grad_norm_Eh_per_a": 0.086686286611
+    }
+  },
+  "gp667": {
+    "b0_rot0": {
+      "energy_Eh": -8.602804093993,
+      "grad_norm_Eh_per_a": 0.107956899076
+    }
+  },
+  "gp624": {
+    "b0_rot0": {
+      "energy_Eh": -8.598562553138,
+      "grad_norm_Eh_per_a": 0.109457982014
+    }
+  },
+  "gp87": {
+    "b0_rot0": {
+      "energy_Eh": -8.561766983921,
+      "grad_norm_Eh_per_a": 0.077780165159
+    }
+  },
+  "gp29": {
+    "b0_rot0": {
+      "energy_Eh": -8.577704414652,
+      "grad_norm_Eh_per_a": 0.082809584055
+    }
+  },
+  "gp213": {
+    "b0_rot0": {
+      "energy_Eh": -8.58667049674,
+      "grad_norm_Eh_per_a": 0.092925040032
+    }
+  },
+  "gp329": {
+    "b0_rot0": {
+      "energy_Eh": -8.554040690177,
+      "grad_norm_Eh_per_a": 0.03321931518
+    }
+  },
+  "gp701": {
+    "b0_rot0": {
+      "energy_Eh": -8.59670649354,
+      "grad_norm_Eh_per_a": 0.110898118032
+    }
+  },
+  "gp321": {
+    "b0_rot0": {
+      "energy_Eh": -8.564804425299,
+      "grad_norm_Eh_per_a": 0.097253038405
+    }
+  },
+  "gp626": {
+    "b0_rot0": {
+      "energy_Eh": -8.598252474749,
+      "grad_norm_Eh_per_a": 0.109659229754
+    }
+  },
+  "gp247": {
+    "b0_rot0": {
+      "energy_Eh": -8.558793600852,
+      "grad_norm_Eh_per_a": 0.054482795825
+    }
+  },
+  "gp123": {
+    "b0_rot0": {
+      "energy_Eh": -8.572303233436,
+      "grad_norm_Eh_per_a": 0.085778103228
+    }
+  },
+  "gp649": {
+    "b0_rot0": {
+      "energy_Eh": -8.592600480212,
+      "grad_norm_Eh_per_a": 0.110960523341
+    }
+  },
+  "gp590": {
+    "b0_rot0": {
+      "energy_Eh": -8.610704066446,
+      "grad_norm_Eh_per_a": 0.097648182514
+    }
+  },
+  "gp234": {
+    "b0_rot0": {
+      "energy_Eh": -8.561136069196,
+      "grad_norm_Eh_per_a": 0.087043314547
+    }
+  },
+  "gp89": {
+    "b0_rot0": {
+      "energy_Eh": -8.586026059936,
+      "grad_norm_Eh_per_a": 0.091514272069
+    }
+  },
+  "gp7": {
+    "b0_rot0": {
+      "energy_Eh": -8.586821806187,
+      "grad_norm_Eh_per_a": 0.084175525037
+    }
+  },
+  "gp391": {
+    "b0_rot0": {
+      "energy_Eh": -8.567108683769,
+      "grad_norm_Eh_per_a": 0.079767694105
+    }
+  },
+  "gp5": {
+    "b0_rot0": {
+      "energy_Eh": -8.587244651564,
+      "grad_norm_Eh_per_a": 0.085292182961
+    }
+  },
+  "gp539": {
+    "b0_rot0": {
+      "energy_Eh": -8.581259179379,
+      "grad_norm_Eh_per_a": 0.091816019797
+    }
+  },
+  "gp293": {
+    "b0_rot0": {
+      "energy_Eh": -8.556162948674,
+      "grad_norm_Eh_per_a": 0.057283529508
+    }
+  },
+  "gp305": {
+    "b0_rot0": {
+      "energy_Eh": -8.636097030944,
+      "grad_norm_Eh_per_a": 0.136866539862
+    }
+  },
+  "gp131": {
+    "b0_rot0": {
+      "energy_Eh": -8.592577147869,
+      "grad_norm_Eh_per_a": 0.088101210057
+    }
+  },
+  "gp510": {
+    "b0_rot0": {
+      "energy_Eh": -8.590773106865,
+      "grad_norm_Eh_per_a": 0.076644802979
+    }
+  },
+  "gp193": {
+    "b0_rot0": {
+      "energy_Eh": -8.596086500299,
+      "grad_norm_Eh_per_a": 0.08635058375
+    }
+  },
+  "gp101": {
+    "b0_rot0": {
+      "energy_Eh": -8.569792811492,
+      "grad_norm_Eh_per_a": 0.083550173054
+    }
+  },
+  "gp22": {
+    "b0_rot0": {
+      "energy_Eh": -8.584279239752,
+      "grad_norm_Eh_per_a": 0.081879214279
+    }
+  },
+  "gp261": {
+    "b0_rot0": {
+      "energy_Eh": -8.552796087508,
+      "grad_norm_Eh_per_a": 0.037567457023
+    }
+  },
+  "gp437": {
+    "b0_rot0": {
+      "energy_Eh": -8.589629567224,
+      "grad_norm_Eh_per_a": 0.076986670406
+    }
+  },
+  "gp697": {
+    "b0_rot0": {
+      "energy_Eh": -8.609409011713,
+      "grad_norm_Eh_per_a": 0.099419973309
+    }
+  },
+  "gp399": {
+    "b0_rot0": {
+      "energy_Eh": -8.557750680396,
+      "grad_norm_Eh_per_a": 0.068665269108
+    }
+  },
+  "gp411": {
+    "b0_rot0": {
+      "energy_Eh": -8.585857504677,
+      "grad_norm_Eh_per_a": 0.094825297811
+    }
+  },
+  "gp260": {
+    "b0_rot0": {
+      "energy_Eh": -8.565267504503,
+      "grad_norm_Eh_per_a": 0.096075813583
+    }
+  },
+  "gp324": {
+    "b0_rot0": {
+      "energy_Eh": -8.55488334727,
+      "grad_norm_Eh_per_a": 0.039639895164
+    }
+  },
+  "gp412": {
+    "b0_rot0": {
+      "energy_Eh": -8.589727026458,
+      "grad_norm_Eh_per_a": 0.077208767982
+    }
+  },
+  "gp143": {
+    "b0_rot0": {
+      "energy_Eh": -8.576157202198,
+      "grad_norm_Eh_per_a": 0.068414464331
+    }
+  },
+  "gp466": {
+    "b0_rot0": {
+      "energy_Eh": -8.58148166179,
+      "grad_norm_Eh_per_a": 0.090616281392
+    }
+  },
+  "gp202": {
+    "b0_rot0": {
+      "energy_Eh": -8.577438058553,
+      "grad_norm_Eh_per_a": 0.074584864298
+    }
+  },
+  "gp384": {
+    "b0_rot0": {
+      "energy_Eh": -8.618589365676,
+      "grad_norm_Eh_per_a": 0.12706644627
+    }
+  },
+  "gp294": {
+    "b0_rot0": {
+      "energy_Eh": -8.576500014766,
+      "grad_norm_Eh_per_a": 0.103264416398
+    }
+  },
+  "gp426": {
+    "b0_rot0": {
+      "energy_Eh": -8.585168455054,
+      "grad_norm_Eh_per_a": 0.078037659904
+    }
+  },
+  "gp186": {
+    "b0_rot0": {
+      "energy_Eh": -8.575893099297,
+      "grad_norm_Eh_per_a": 0.080880629511
+    }
+  },
+  "gp455": {
+    "b0_rot0": {
+      "energy_Eh": -8.581019157738,
+      "grad_norm_Eh_per_a": 0.085818494081
+    }
+  },
+  "gp609": {
+    "b0_rot0": {
+      "energy_Eh": -8.617378179952,
+      "grad_norm_Eh_per_a": 0.085467589217
+    }
+  },
+  "gp536": {
+    "b0_rot0": {
+      "energy_Eh": -8.585111916796,
+      "grad_norm_Eh_per_a": 0.088189432168
+    }
+  },
+  "gp406": {
+    "b0_rot0": {
+      "energy_Eh": -8.590108860119,
+      "grad_norm_Eh_per_a": 0.085538512458
+    }
+  },
+  "gp13": {
+    "b0_rot0": {
+      "energy_Eh": -8.583423699466,
+      "grad_norm_Eh_per_a": 0.09378920312
+    }
+  },
+  "gp634": {
+    "b0_rot0": {
+      "energy_Eh": -8.620094675414,
+      "grad_norm_Eh_per_a": 0.077273538865
+    }
+  },
+  "gp460": {
+    "b0_rot0": {
+      "energy_Eh": -8.586048753282,
+      "grad_norm_Eh_per_a": 0.077780584716
+    }
+  },
+  "gp478": {
+    "b0_rot0": {
+      "energy_Eh": -8.585018581499,
+      "grad_norm_Eh_per_a": 0.084819009971
+    }
+  },
+  "gp246": {
+    "b0_rot0": {
+      "energy_Eh": -8.573016568454,
+      "grad_norm_Eh_per_a": 0.099358714714
+    }
+  },
+  "gp682": {
+    "b0_rot0": {
+      "energy_Eh": -8.609506149942,
+      "grad_norm_Eh_per_a": 0.098819455296
+    }
+  },
+  "gp249": {
+    "b0_rot0": {
+      "energy_Eh": -8.558528226693,
+      "grad_norm_Eh_per_a": 0.070029357043
+    }
+  },
+  "gp69": {
+    "b0_rot0": {
+      "energy_Eh": -8.570654680645,
+      "grad_norm_Eh_per_a": 0.083757484148
+    }
+  },
+  "gp404": {
+    "b0_rot0": {
+      "energy_Eh": -8.576316615006,
+      "grad_norm_Eh_per_a": 0.090226806263
+    }
+  },
+  "gp519": {
+    "b0_rot0": {
+      "energy_Eh": -8.581710823307,
+      "grad_norm_Eh_per_a": 0.089216325468
+    }
+  },
+  "gp178": {
+    "b0_rot0": {
+      "energy_Eh": -8.569356745446,
+      "grad_norm_Eh_per_a": 0.07856647732
+    }
+  },
+  "gp473": {
+    "b0_rot0": {
+      "energy_Eh": -8.58439750467,
+      "grad_norm_Eh_per_a": 0.082578540784
+    }
+  },
+  "gp334": {
+    "b0_rot0": {
+      "energy_Eh": -8.606755961956,
+      "grad_norm_Eh_per_a": 0.124468484836
+    }
+  },
+  "gp490": {
+    "b0_rot0": {
+      "energy_Eh": -8.581819833992,
+      "grad_norm_Eh_per_a": 0.090576876635
+    }
+  },
+  "gp17": {
+    "b0_rot0": {
+      "energy_Eh": -8.586086342638,
+      "grad_norm_Eh_per_a": 0.093043261686
+    }
+  },
+  "gp593": {
+    "b0_rot0": {
+      "energy_Eh": -8.609723698532,
+      "grad_norm_Eh_per_a": 0.099003396957
+    }
+  },
+  "gp242": {
+    "b0_rot0": {
+      "energy_Eh": -8.553249457673,
+      "grad_norm_Eh_per_a": 0.034300489323
+    }
+  },
+  "gp450": {
+    "b0_rot0": {
+      "energy_Eh": -8.585602030538,
+      "grad_norm_Eh_per_a": 0.076409410763
+    }
+  },
+  "gp154": {
+    "b0_rot0": {
+      "energy_Eh": -8.592516803933,
+      "grad_norm_Eh_per_a": 0.086044921983
+    }
+  },
+  "gp170": {
+    "b0_rot0": {
+      "energy_Eh": -8.575622112968,
+      "grad_norm_Eh_per_a": 0.052560671286
+    }
+  },
+  "gp314": {
+    "b0_rot0": {
+      "energy_Eh": -8.56094707891,
+      "grad_norm_Eh_per_a": 0.06086611224
+    }
+  },
+  "gp349": {
+    "b0_rot0": {
+      "energy_Eh": -8.62604666638,
+      "grad_norm_Eh_per_a": 0.131031364068
+    }
+  },
+  "gp263": {
+    "b0_rot0": {
+      "energy_Eh": -8.56153088519,
+      "grad_norm_Eh_per_a": 0.088377198262
+    }
+  },
+  "gp109": {
+    "b0_rot0": {
+      "energy_Eh": -8.575893312556,
+      "grad_norm_Eh_per_a": 0.071100516764
+    }
+  },
+  "gp483": {
+    "b0_rot0": {
+      "energy_Eh": -8.57637606022,
+      "grad_norm_Eh_per_a": 0.090077850946
+    }
+  },
+  "gp527": {
+    "b0_rot0": {
+      "energy_Eh": -8.576718977274,
+      "grad_norm_Eh_per_a": 0.089023898919
+    }
+  },
+  "gp219": {
+    "b0_rot0": {
+      "energy_Eh": -8.574257214664,
+      "grad_norm_Eh_per_a": 0.077577385135
+    }
+  },
+  "gp644": {
+    "b0_rot0": {
+      "energy_Eh": -8.609305497086,
+      "grad_norm_Eh_per_a": 0.099493299708
+    }
+  },
+  "gp254": {
+    "b0_rot0": {
+      "energy_Eh": -8.554668346753,
+      "grad_norm_Eh_per_a": 0.045295794113
+    }
+  },
+  "gp482": {
+    "b0_rot0": {
+      "energy_Eh": -8.582407614545,
+      "grad_norm_Eh_per_a": 0.085941665847
+    }
+  },
+  "gp444": {
+    "b0_rot0": {
+      "energy_Eh": -8.581907310142,
+      "grad_norm_Eh_per_a": 0.089758575563
+    }
+  },
+  "gp256": {
+    "b0_rot0": {
+      "energy_Eh": -8.632647031346,
+      "grad_norm_Eh_per_a": 0.134224496838
+    }
+  },
+  "gp485": {
+    "b0_rot0": {
+      "energy_Eh": -8.578905585665,
+      "grad_norm_Eh_per_a": 0.096503622287
+    }
+  },
+  "gp375": {
+    "b0_rot0": {
+      "energy_Eh": -8.562706442496,
+      "grad_norm_Eh_per_a": 0.091929254046
+    }
+  },
+  "gp633": {
+    "b0_rot0": {
+      "energy_Eh": -8.592404206327,
+      "grad_norm_Eh_per_a": 0.104712565082
+    }
+  },
+  "gp63": {
+    "b0_rot0": {
+      "energy_Eh": -8.565261483915,
+      "grad_norm_Eh_per_a": 0.066373138129
+    }
+  },
+  "gp408": {
+    "b0_rot0": {
+      "energy_Eh": -8.58812272731,
+      "grad_norm_Eh_per_a": 0.083253238709
+    }
+  },
+  "gp505": {
+    "b0_rot0": {
+      "energy_Eh": -8.583731535687,
+      "grad_norm_Eh_per_a": 0.080451199945
+    }
+  },
+  "gp152": {
+    "b0_rot0": {
+      "energy_Eh": -8.595586390872,
+      "grad_norm_Eh_per_a": 0.086413520006
+    }
+  },
+  "gp159": {
+    "b0_rot0": {
+      "energy_Eh": -8.561200756941,
+      "grad_norm_Eh_per_a": 0.077996473339
+    }
+  },
+  "gp675": {
+    "b0_rot0": {
+      "energy_Eh": -8.613703823524,
+      "grad_norm_Eh_per_a": 0.092868600892
+    }
+  },
+  "gp268": {
+    "b0_rot0": {
+      "energy_Eh": -8.565298414935,
+      "grad_norm_Eh_per_a": 0.077662087019
+    }
+  },
+  "gp335": {
+    "b0_rot0": {
+      "energy_Eh": -8.571517177818,
+      "grad_norm_Eh_per_a": 0.104531105319
+    }
+  },
+  "gp283": {
+    "b0_rot0": {
+      "energy_Eh": -8.591343657071,
+      "grad_norm_Eh_per_a": 0.111852069736
+    }
+  },
+  "gp177": {
+    "b0_rot0": {
+      "energy_Eh": -8.588264323249,
+      "grad_norm_Eh_per_a": 0.082403406783
+    }
+  },
+  "gp456": {
+    "b0_rot0": {
+      "energy_Eh": -8.57730119239,
+      "grad_norm_Eh_per_a": 0.089040357582
+    }
+  },
+  "gp71": {
+    "b0_rot0": {
+      "energy_Eh": -8.582845408469,
+      "grad_norm_Eh_per_a": 0.088642063463
+    }
+  },
+  "gp110": {
+    "b0_rot0": {
+      "energy_Eh": -8.573291414759,
+      "grad_norm_Eh_per_a": 0.051900479817
+    }
+  },
+  "gp673": {
+    "b0_rot0": {
+      "energy_Eh": -8.592033740759,
+      "grad_norm_Eh_per_a": 0.112951309058
+    }
+  },
+  "gp243": {
+    "b0_rot0": {
+      "energy_Eh": -8.619998278334,
+      "grad_norm_Eh_per_a": 0.127657329649
+    }
+  },
+  "gp569": {
+    "b0_rot0": {
+      "energy_Eh": -8.608269080934,
+      "grad_norm_Eh_per_a": 0.10118515682
+    }
+  },
+  "gp343": {
+    "b0_rot0": {
+      "energy_Eh": -8.59061371807,
+      "grad_norm_Eh_per_a": 0.117582284476
+    }
+  },
+  "gp128": {
+    "b0_rot0": {
+      "energy_Eh": -8.565815862032,
+      "grad_norm_Eh_per_a": 0.081830800338
+    }
+  },
+  "gp253": {
+    "b0_rot0": {
+      "energy_Eh": -8.556075621019,
+      "grad_norm_Eh_per_a": 0.063442933569
+    }
+  },
+  "gp265": {
+    "b0_rot0": {
+      "energy_Eh": -8.556538477227,
+      "grad_norm_Eh_per_a": 0.063699903303
+    }
+  },
+  "gp126": {
+    "b0_rot0": {
+      "energy_Eh": -8.577715483856,
+      "grad_norm_Eh_per_a": 0.078026245257
+    }
+  },
+  "gp311": {
+    "b0_rot0": {
+      "energy_Eh": -8.571342858097,
+      "grad_norm_Eh_per_a": 0.098423939357
+    }
+  },
+  "gp492": {
+    "b0_rot0": {
+      "energy_Eh": -8.582230844589,
+      "grad_norm_Eh_per_a": 0.087422655353
+    }
+  },
+  "gp567": {
+    "b0_rot0": {
+      "energy_Eh": -8.609298178917,
+      "grad_norm_Eh_per_a": 0.099684915413
+    }
+  },
+  "gp289": {
+    "b0_rot0": {
+      "energy_Eh": -8.558194186327,
+      "grad_norm_Eh_per_a": 0.071536181394
+    }
+  },
+  "gp690": {
+    "b0_rot0": {
+      "energy_Eh": -8.621321485652,
+      "grad_norm_Eh_per_a": 0.071825062598
+    }
+  },
+  "gp403": {
+    "b0_rot0": {
+      "energy_Eh": -8.58236481483,
+      "grad_norm_Eh_per_a": 0.086642631458
+    }
+  },
+  "gp9": {
+    "b0_rot0": {
+      "energy_Eh": -8.575575652987,
+      "grad_norm_Eh_per_a": 0.090016612036
+    }
+  },
+  "gp42": {
+    "b0_rot0": {
+      "energy_Eh": -8.585389224691,
+      "grad_norm_Eh_per_a": 0.089655278136
+    }
+  },
+  "gp568": {
+    "b0_rot0": {
+      "energy_Eh": -8.590513832423,
+      "grad_norm_Eh_per_a": 0.117539494838
+    }
+  },
+  "gp662": {
+    "b0_rot0": {
+      "energy_Eh": -8.606074626482,
+      "grad_norm_Eh_per_a": 0.103441258315
+    }
+  },
+  "gp503": {
+    "b0_rot0": {
+      "energy_Eh": -8.582171581235,
+      "grad_norm_Eh_per_a": 0.086479499876
+    }
+  },
+  "gp696": {
+    "b0_rot0": {
+      "energy_Eh": -8.61376035549,
+      "grad_norm_Eh_per_a": 0.092962425552
+    }
+  },
+  "gp451": {
+    "b0_rot0": {
+      "energy_Eh": -8.584181991876,
+      "grad_norm_Eh_per_a": 0.078208297208
+    }
+  },
+  "gp185": {
+    "b0_rot0": {
+      "energy_Eh": -8.593261781107,
+      "grad_norm_Eh_per_a": 0.089213403159
+    }
+  },
+  "gp228": {
+    "b0_rot0": {
+      "energy_Eh": -8.56958792964,
+      "grad_norm_Eh_per_a": 0.098311100211
+    }
+  },
+  "gp146": {
+    "b0_rot0": {
+      "energy_Eh": -8.576448905801,
+      "grad_norm_Eh_per_a": 0.072611450177
+    }
+  },
+  "gp1": {
+    "b0_rot0": {
+      "energy_Eh": -8.575378708017,
+      "grad_norm_Eh_per_a": 0.067562995656
+    }
+  },
+  "gp118": {
+    "b0_rot0": {
+      "energy_Eh": -8.575096450084,
+      "grad_norm_Eh_per_a": 0.071179356804
+    }
+  },
+  "gp162": {
+    "b0_rot0": {
+      "energy_Eh": -8.564986981259,
+      "grad_norm_Eh_per_a": 0.077720960191
+    }
+  },
+  "gp165": {
+    "b0_rot0": {
+      "energy_Eh": -8.59421775467,
+      "grad_norm_Eh_per_a": 0.088481129272
+    }
+  },
+  "gp205": {
+    "b0_rot0": {
+      "energy_Eh": -8.57132211826,
+      "grad_norm_Eh_per_a": 0.085574306138
+    }
+  },
+  "gp124": {
+    "b0_rot0": {
+      "energy_Eh": -8.579591769786,
+      "grad_norm_Eh_per_a": 0.075272704258
+    }
+  },
+  "gp395": {
+    "b0_rot0": {
+      "energy_Eh": -8.568282622276,
+      "grad_norm_Eh_per_a": 0.08756265866
+    }
+  },
+  "gp389": {
+    "b0_rot0": {
+      "energy_Eh": -8.5548555833,
+      "grad_norm_Eh_per_a": 0.05092194444
+    }
+  },
+  "gp608": {
+    "b0_rot0": {
+      "energy_Eh": -8.604329889727,
+      "grad_norm_Eh_per_a": 0.104745960786
+    }
+  },
+  "gp672": {
+    "b0_rot0": {
+      "energy_Eh": -8.614353224589,
+      "grad_norm_Eh_per_a": 0.09167990342
+    }
+  },
+  "gp679": {
+    "b0_rot0": {
+      "energy_Eh": -8.590226339631,
+      "grad_norm_Eh_per_a": 0.109543091424
+    }
+  },
+  "gp583": {
+    "b0_rot0": {
+      "energy_Eh": -8.620629509445,
+      "grad_norm_Eh_per_a": 0.075106026775
+    }
+  },
+  "gp514": {
+    "b0_rot0": {
+      "energy_Eh": -8.582338447528,
+      "grad_norm_Eh_per_a": 0.083310134766
+    }
+  },
+  "gp513": {
+    "b0_rot0": {
+      "energy_Eh": -8.588992909578,
+      "grad_norm_Eh_per_a": 0.077879320885
+    }
+  },
+  "gp103": {
+    "b0_rot0": {
+      "energy_Eh": -8.56927791935,
+      "grad_norm_Eh_per_a": 0.083989278961
+    }
+  },
+  "gp559": {
+    "b0_rot0": {
+      "energy_Eh": -8.580809606144,
+      "grad_norm_Eh_per_a": 0.085693478831
+    }
+  },
+  "gp419": {
+    "b0_rot0": {
+      "energy_Eh": -8.582077545242,
+      "grad_norm_Eh_per_a": 0.088705050742
+    }
+  },
+  "gp30": {
+    "b0_rot0": {
+      "energy_Eh": -8.561358305735,
+      "grad_norm_Eh_per_a": 0.079783665784
+    }
+  },
+  "gp560": {
+    "b0_rot0": {
+      "energy_Eh": -8.581403813756,
+      "grad_norm_Eh_per_a": 0.092101901008
+    }
+  },
+  "gp49": {
+    "b0_rot0": {
+      "energy_Eh": -8.575644605273,
+      "grad_norm_Eh_per_a": 0.075830426443
+    }
+  },
+  "gp683": {
+    "b0_rot0": {
+      "energy_Eh": -8.590894589778,
+      "grad_norm_Eh_per_a": 0.106439905212
+    }
+  },
+  "gp645": {
+    "b0_rot0": {
+      "energy_Eh": -8.615118398571,
+      "grad_norm_Eh_per_a": 0.090500049437
+    }
+  },
+  "gp635": {
+    "b0_rot0": {
+      "energy_Eh": -8.61072586961,
+      "grad_norm_Eh_per_a": 0.097521922172
+    }
+  },
+  "gp120": {
+    "b0_rot0": {
+      "energy_Eh": -8.591941767689,
+      "grad_norm_Eh_per_a": 0.086931854729
+    }
+  },
+  "gp37": {
+    "b0_rot0": {
+      "energy_Eh": -8.582308332309,
+      "grad_norm_Eh_per_a": 0.076836552012
+    }
+  },
+  "gp576": {
+    "b0_rot0": {
+      "energy_Eh": -8.593841533864,
+      "grad_norm_Eh_per_a": 0.112486649466
+    }
+  },
+  "gp427": {
+    "b0_rot0": {
+      "energy_Eh": -8.582522094967,
+      "grad_norm_Eh_per_a": 0.08461043412
+    }
+  },
+  "gp522": {
+    "b0_rot0": {
+      "energy_Eh": -8.58382868689,
+      "grad_norm_Eh_per_a": 0.078907173516
+    }
+  },
+  "gp303": {
+    "b0_rot0": {
+      "energy_Eh": -8.614764727247,
+      "grad_norm_Eh_per_a": 0.125653877455
+    }
+  },
+  "gp463": {
+    "b0_rot0": {
+      "energy_Eh": -8.579641088836,
+      "grad_norm_Eh_per_a": 0.088845271403
+    }
+  },
+  "gp504": {
+    "b0_rot0": {
+      "energy_Eh": -8.577312571923,
+      "grad_norm_Eh_per_a": 0.090014884886
+    }
+  },
+  "gp23": {
+    "b0_rot0": {
+      "energy_Eh": -8.581940280105,
+      "grad_norm_Eh_per_a": 0.082715605587
+    }
+  },
+  "gp453": {
+    "b0_rot0": {
+      "energy_Eh": -8.582601623125,
+      "grad_norm_Eh_per_a": 0.084868298667
+    }
+  },
+  "gp296": {
+    "b0_rot0": {
+      "energy_Eh": -8.574894945192,
+      "grad_norm_Eh_per_a": 0.102952595351
+    }
+  },
+  "gp106": {
+    "b0_rot0": {
+      "energy_Eh": -8.579033707048,
+      "grad_norm_Eh_per_a": 0.073755185182
+    }
+  },
+  "gp454": {
+    "b0_rot0": {
+      "energy_Eh": -8.581695893498,
+      "grad_norm_Eh_per_a": 0.088705642709
+    }
+  },
+  "gp333": {
+    "b0_rot0": {
+      "energy_Eh": -8.569684114475,
+      "grad_norm_Eh_per_a": 0.095870145502
+    }
+  },
+  "gp621": {
+    "b0_rot0": {
+      "energy_Eh": -8.594389151071,
+      "grad_norm_Eh_per_a": 0.112206901221
+    }
+  },
+  "gp91": {
+    "b0_rot0": {
+      "energy_Eh": -8.578682802387,
+      "grad_norm_Eh_per_a": 0.073655271728
+    }
+  },
+  "gp75": {
+    "b0_rot0": {
+      "energy_Eh": -8.568640153866,
+      "grad_norm_Eh_per_a": 0.068052600146
+    }
+  },
+  "gp597": {
+    "b0_rot0": {
+      "energy_Eh": -8.599691655726,
+      "grad_norm_Eh_per_a": 0.108542601185
+    }
+  },
+  "gp431": {
+    "b0_rot0": {
+      "energy_Eh": -8.580436507532,
+      "grad_norm_Eh_per_a": 0.086858489596
+    }
+  },
+  "gp238": {
+    "b0_rot0": {
+      "energy_Eh": -8.558167596379,
+      "grad_norm_Eh_per_a": 0.071402866038
+    }
+  },
+  "gp554": {
+    "b0_rot0": {
+      "energy_Eh": -8.577866137791,
+      "grad_norm_Eh_per_a": 0.092487531351
+    }
+  },
+  "gp632": {
+    "b0_rot0": {
+      "energy_Eh": -8.611398345336,
+      "grad_norm_Eh_per_a": 0.096479536333
+    }
+  },
+  "gp563": {
+    "b0_rot0": {
+      "energy_Eh": -8.619809178663,
+      "grad_norm_Eh_per_a": 0.077699808485
+    }
+  },
+  "gp611": {
+    "b0_rot0": {
+      "energy_Eh": -8.603783707273,
+      "grad_norm_Eh_per_a": 0.105320433696
+    }
+  },
+  "gp216": {
+    "b0_rot0": {
+      "energy_Eh": -8.579576148326,
+      "grad_norm_Eh_per_a": 0.07575682239
+    }
+  },
+  "gp203": {
+    "b0_rot0": {
+      "energy_Eh": -8.567141856096,
+      "grad_norm_Eh_per_a": 0.058525679501
+    }
+  },
+  "gp251": {
+    "b0_rot0": {
+      "energy_Eh": -8.563547087521,
+      "grad_norm_Eh_per_a": 0.077598236994
+    }
+  },
+  "gp76": {
+    "b0_rot0": {
+      "energy_Eh": -8.577320631,
+      "grad_norm_Eh_per_a": 0.070575023666
+    }
+  },
+  "gp650": {
+    "b0_rot0": {
+      "energy_Eh": -8.620515569431,
+      "grad_norm_Eh_per_a": 0.075600483053
+    }
+  },
+  "gp691": {
+    "b0_rot0": {
+      "energy_Eh": -8.6115873677,
+      "grad_norm_Eh_per_a": 0.096054328833
+    }
+  },
+  "gp612": {
+    "b0_rot0": {
+      "energy_Eh": -8.617086182336,
+      "grad_norm_Eh_per_a": 0.086209536395
+    }
+  },
+  "gp156": {
+    "b0_rot0": {
+      "energy_Eh": -8.570928927994,
+      "grad_norm_Eh_per_a": 0.085758750239
+    }
+  },
+  "gp107": {
+    "b0_rot0": {
+      "energy_Eh": -8.57664383734,
+      "grad_norm_Eh_per_a": 0.05280577855
+    }
+  },
+  "gp573": {
+    "b0_rot0": {
+      "energy_Eh": -8.591102201664,
+      "grad_norm_Eh_per_a": 0.113564684601
+    }
+  },
+  "gp480": {
+    "b0_rot0": {
+      "energy_Eh": -8.583418052703,
+      "grad_norm_Eh_per_a": 0.080231397067
+    }
+  },
+  "gp271": {
+    "b0_rot0": {
+      "energy_Eh": -8.588635519255,
+      "grad_norm_Eh_per_a": 0.109294664908
+    }
+  },
+  "gp199": {
+    "b0_rot0": {
+      "energy_Eh": -8.575168406374,
+      "grad_norm_Eh_per_a": 0.054838644101
+    }
+  },
+  "gp385": {
+    "b0_rot0": {
+      "energy_Eh": -8.560444041349,
+      "grad_norm_Eh_per_a": 0.066359269472
+    }
+  },
+  "gp585": {
+    "b0_rot0": {
+      "energy_Eh": -8.591500354128,
+      "grad_norm_Eh_per_a": 0.113413259271
+    }
+  },
+  "gp169": {
+    "b0_rot0": {
+      "energy_Eh": -8.573574079626,
+      "grad_norm_Eh_per_a": 0.075635857751
+    }
+  },
+  "gp664": {
+    "b0_rot0": {
+      "energy_Eh": -8.618830097724,
+      "grad_norm_Eh_per_a": 0.081044905307
+    }
+  },
+  "gp660": {
+    "b0_rot0": {
+      "energy_Eh": -8.607374077984,
+      "grad_norm_Eh_per_a": 0.102041353668
+    }
+  },
+  "gp516": {
+    "b0_rot0": {
+      "energy_Eh": -8.579753845193,
+      "grad_norm_Eh_per_a": 0.089880615605
+    }
+  },
+  "gp236": {
+    "b0_rot0": {
+      "energy_Eh": -8.599160551586,
+      "grad_norm_Eh_per_a": 0.114670995694
+    }
+  },
+  "gp477": {
+    "b0_rot0": {
+      "energy_Eh": -8.580045657998,
+      "grad_norm_Eh_per_a": 0.086284399443
+    }
+  },
+  "gp155": {
+    "b0_rot0": {
+      "energy_Eh": -8.587296272959,
+      "grad_norm_Eh_per_a": 0.085551259847
+    }
+  },
+  "gp230": {
+    "b0_rot0": {
+      "energy_Eh": -8.566081837875,
+      "grad_norm_Eh_per_a": 0.096423669267
+    }
+  },
+  "gp53": {
+    "b0_rot0": {
+      "energy_Eh": -8.586578928379,
+      "grad_norm_Eh_per_a": 0.084619997361
+    }
+  },
+  "gp332": {
+    "b0_rot0": {
+      "energy_Eh": -8.59362036419,
+      "grad_norm_Eh_per_a": 0.110764563866
+    }
+  },
+  "gp639": {
+    "b0_rot0": {
+      "energy_Eh": -8.599648593096,
+      "grad_norm_Eh_per_a": 0.108753536236
+    }
+  },
+  "gp319": {
+    "b0_rot0": {
+      "energy_Eh": -8.554770612936,
+      "grad_norm_Eh_per_a": 0.049237203596
+    }
+  },
+  "gp436": {
+    "b0_rot0": {
+      "energy_Eh": -8.583486369596,
+      "grad_norm_Eh_per_a": 0.10375719951
+    }
+  },
+  "gp528": {
+    "b0_rot0": {
+      "energy_Eh": -8.585098293444,
+      "grad_norm_Eh_per_a": 0.08442038689
+    }
+  },
+  "gp529": {
+    "b0_rot0": {
+      "energy_Eh": -8.581816188047,
+      "grad_norm_Eh_per_a": 0.088276628419
+    }
+  },
+  "gp703": {
+    "b0_rot0": {
+      "energy_Eh": -8.599489303955,
+      "grad_norm_Eh_per_a": 0.108654717919
+    }
+  },
+  "gp56": {
+    "b0_rot0": {
+      "energy_Eh": -8.58574021035,
+      "grad_norm_Eh_per_a": 0.084671202849
+    }
+  },
+  "gp79": {
+    "b0_rot0": {
+      "energy_Eh": -8.575369785026,
+      "grad_norm_Eh_per_a": 0.081952825769
+    }
+  },
+  "gp422": {
+    "b0_rot0": {
+      "energy_Eh": -8.587044167793,
+      "grad_norm_Eh_per_a": 0.092913538551
+    }
+  },
+  "gp524": {
+    "b0_rot0": {
+      "energy_Eh": -8.582242043076,
+      "grad_norm_Eh_per_a": 0.085458361665
+    }
+  },
+  "gp439": {
+    "b0_rot0": {
+      "energy_Eh": -8.578477463896,
+      "grad_norm_Eh_per_a": 0.085824707318
+    }
+  },
+  "gp341": {
+    "b0_rot0": {
+      "energy_Eh": -8.59475970465,
+      "grad_norm_Eh_per_a": 0.120236252517
+    }
+  },
+  "gp637": {
+    "b0_rot0": {
+      "energy_Eh": -8.6039462612,
+      "grad_norm_Eh_per_a": 0.105018740988
+    }
+  },
+  "gp198": {
+    "b0_rot0": {
+      "energy_Eh": -8.566506272217,
+      "grad_norm_Eh_per_a": 0.076484277522
+    }
+  },
+  "gp235": {
+    "b0_rot0": {
+      "energy_Eh": -8.551842532516,
+      "grad_norm_Eh_per_a": 0.035232804854
+    }
+  },
+  "gp468": {
+    "b0_rot0": {
+      "energy_Eh": -8.582666817985,
+      "grad_norm_Eh_per_a": 0.084158669381
+    }
+  },
+  "gp179": {
+    "b0_rot0": {
+      "energy_Eh": -8.574387399586,
+      "grad_norm_Eh_per_a": 0.068645044819
+    }
+  },
+  "gp307": {
+    "b0_rot0": {
+      "energy_Eh": -8.575164637497,
+      "grad_norm_Eh_per_a": 0.100163259549
+    }
+  },
+  "gp706": {
+    "b0_rot0": {
+      "energy_Eh": -8.599168330829,
+      "grad_norm_Eh_per_a": 0.108925113788
+    }
+  },
+  "gp95": {
+    "b0_rot0": {
+      "energy_Eh": -8.579392958705,
+      "grad_norm_Eh_per_a": 0.075872420758
+    }
+  },
+  "gp72": {
+    "b0_rot0": {
+      "energy_Eh": -8.568218788006,
+      "grad_norm_Eh_per_a": 0.065932026021
+    }
+  },
+  "gp194": {
+    "b0_rot0": {
+      "energy_Eh": -8.594810159672,
+      "grad_norm_Eh_per_a": 0.087928581609
+    }
+  },
+  "gp362": {
+    "b0_rot0": {
+      "energy_Eh": -8.593810410435,
+      "grad_norm_Eh_per_a": 0.111042419297
+    }
+  },
+  "gp550": {
+    "b0_rot0": {
+      "energy_Eh": -8.57650725086,
+      "grad_norm_Eh_per_a": 0.089613858142
+    }
+  },
+  "gp145": {
+    "b0_rot0": {
+      "energy_Eh": -8.57521676458,
+      "grad_norm_Eh_per_a": 0.070515661483
+    }
+  },
+  "gp641": {
+    "b0_rot0": {
+      "energy_Eh": -8.602629490618,
+      "grad_norm_Eh_per_a": 0.106118899091
+    }
+  },
+  "gp245": {
+    "b0_rot0": {
+      "energy_Eh": -8.556503382236,
+      "grad_norm_Eh_per_a": 0.047413436747
+    }
+  },
+  "gp535": {
+    "b0_rot0": {
+      "energy_Eh": -8.576834018703,
+      "grad_norm_Eh_per_a": 0.090166309199
+    }
+  },
+  "gp278": {
+    "b0_rot0": {
+      "energy_Eh": -8.553757738712,
+      "grad_norm_Eh_per_a": 0.0356460064
+    }
+  },
+  "gp363": {
+    "b0_rot0": {
+      "energy_Eh": -8.577741121894,
+      "grad_norm_Eh_per_a": 0.091764494568
+    }
+  },
+  "gp88": {
+    "b0_rot0": {
+      "energy_Eh": -8.590521696935,
+      "grad_norm_Eh_per_a": 0.084888911889
+    }
+  },
+  "gp273": {
+    "b0_rot0": {
+      "energy_Eh": -8.563653616681,
+      "grad_norm_Eh_per_a": 0.092511213909
+    }
+  },
+  "gp175": {
+    "b0_rot0": {
+      "energy_Eh": -8.561542440481,
+      "grad_norm_Eh_per_a": 0.057888571389
+    }
+  },
+  "gp371": {
+    "b0_rot0": {
+      "energy_Eh": -8.553782837047,
+      "grad_norm_Eh_per_a": 0.033784532919
+    }
+  },
+  "gp648": {
+    "b0_rot0": {
+      "energy_Eh": -8.614958467889,
+      "grad_norm_Eh_per_a": 0.090835550498
+    }
+  },
+  "gp652": {
+    "b0_rot0": {
+      "energy_Eh": -8.620430634942,
+      "grad_norm_Eh_per_a": 0.075960556392
+    }
+  },
+  "gp642": {
+    "b0_rot0": {
+      "energy_Eh": -8.593185997522,
+      "grad_norm_Eh_per_a": 0.112820967288
+    }
+  },
+  "gp84": {
+    "b0_rot0": {
+      "energy_Eh": -8.594204618185,
+      "grad_norm_Eh_per_a": 0.087009995126
+    }
+  },
+  "gp669": {
+    "b0_rot0": {
+      "energy_Eh": -8.612024262666,
+      "grad_norm_Eh_per_a": 0.095598069726
+    }
+  },
+  "gp620": {
+    "b0_rot0": {
+      "energy_Eh": -8.602920512384,
+      "grad_norm_Eh_per_a": 0.10611293075
+    }
+  },
+  "gp138": {
+    "b0_rot0": {
+      "energy_Eh": -8.561385661016,
+      "grad_norm_Eh_per_a": 0.077903769392
+    }
+  },
+  "gp136": {
+    "b0_rot0": {
+      "energy_Eh": -8.594169181062,
+      "grad_norm_Eh_per_a": 0.088509234908
+    }
+  },
+  "gp298": {
+    "b0_rot0": {
+      "energy_Eh": -8.559845116678,
+      "grad_norm_Eh_per_a": 0.057570073566
+    }
+  },
+  "gp355": {
+    "b0_rot0": {
+      "energy_Eh": -8.556722208417,
+      "grad_norm_Eh_per_a": 0.068856103142
+    }
+  },
+  "gp331": {
+    "b0_rot0": {
+      "energy_Eh": -8.578457857007,
+      "grad_norm_Eh_per_a": 0.092494203469
+    }
+  },
+  "gp164": {
+    "b0_rot0": {
+      "energy_Eh": -8.59610178601,
+      "grad_norm_Eh_per_a": 0.086263198555
+    }
+  },
+  "gp495": {
+    "b0_rot0": {
+      "energy_Eh": -8.588888141157,
+      "grad_norm_Eh_per_a": 0.081418214343
+    }
+  },
+  "gp467": {
+    "b0_rot0": {
+      "energy_Eh": -8.580298213673,
+      "grad_norm_Eh_per_a": 0.09106211281
+    }
+  },
+  "gp373": {
+    "b0_rot0": {
+      "energy_Eh": -8.553921144051,
+      "grad_norm_Eh_per_a": 0.032980597362
+    }
+  },
+  "gp257": {
+    "b0_rot0": {
+      "energy_Eh": -8.553996773828,
+      "grad_norm_Eh_per_a": 0.036435330998
+    }
+  },
+  "gp598": {
+    "b0_rot0": {
+      "energy_Eh": -8.614871681455,
+      "grad_norm_Eh_per_a": 0.090672632859
+    }
+  },
+  "gp217": {
+    "b0_rot0": {
+      "energy_Eh": -8.573452176011,
+      "grad_norm_Eh_per_a": 0.075547396263
+    }
+  },
+  "gp475": {
+    "b0_rot0": {
+      "energy_Eh": -8.587507552448,
+      "grad_norm_Eh_per_a": 0.094504877856
+    }
+  },
+  "gp443": {
+    "b0_rot0": {
+      "energy_Eh": -8.584455606558,
+      "grad_norm_Eh_per_a": 0.082132896586
+    }
+  },
+  "gp2": {
+    "b0_rot0": {
+      "energy_Eh": -8.582196162381,
+      "grad_norm_Eh_per_a": 0.085902195672
+    }
+  },
+  "gp16": {
+    "b0_rot0": {
+      "energy_Eh": -8.592046868579,
+      "grad_norm_Eh_per_a": 0.085075541017
+    }
+  },
+  "gp606": {
+    "b0_rot0": {
+      "energy_Eh": -8.591725330035,
+      "grad_norm_Eh_per_a": 0.10809926916
+    }
+  },
+  "gp345": {
+    "b0_rot0": {
+      "energy_Eh": -8.568628576336,
+      "grad_norm_Eh_per_a": 0.097089878754
+    }
+  },
+  "gp496": {
+    "b0_rot0": {
+      "energy_Eh": -8.587543699729,
+      "grad_norm_Eh_per_a": 0.075809192004
+    }
+  },
+  "gp204": {
+    "b0_rot0": {
+      "energy_Eh": -8.588486673032,
+      "grad_norm_Eh_per_a": 0.082695368468
+    }
+  },
+  "gp244": {
+    "b0_rot0": {
+      "energy_Eh": -8.616275793079,
+      "grad_norm_Eh_per_a": 0.125819308854
+    }
+  },
+  "gp180": {
+    "b0_rot0": {
+      "energy_Eh": -8.582979890469,
+      "grad_norm_Eh_per_a": 0.077489736984
+    }
+  },
+  "gp190": {
+    "b0_rot0": {
+      "energy_Eh": -8.594285554672,
+      "grad_norm_Eh_per_a": 0.088413349066
+    }
+  },
+  "gp366": {
+    "b0_rot0": {
+      "energy_Eh": -8.627626605224,
+      "grad_norm_Eh_per_a": 0.132506924738
+    }
+  },
+  "gp212": {
+    "b0_rot0": {
+      "energy_Eh": -8.567295715843,
+      "grad_norm_Eh_per_a": 0.072563226144
+    }
+  },
+  "gp274": {
+    "b0_rot0": {
+      "energy_Eh": -8.553744645775,
+      "grad_norm_Eh_per_a": 0.033252611857
+    }
+  },
+  "gp173": {
+    "b0_rot0": {
+      "energy_Eh": -8.560232195281,
+      "grad_norm_Eh_per_a": 0.055308001035
+    }
+  },
+  "gp340": {
+    "b0_rot0": {
+      "energy_Eh": -8.565597194519,
+      "grad_norm_Eh_per_a": 0.075103126018
+    }
+  },
+  "gp239": {
+    "b0_rot0": {
+      "energy_Eh": -8.562308958111,
+      "grad_norm_Eh_per_a": 0.089635784363
+    }
+  },
+  "gp424": {
+    "b0_rot0": {
+      "energy_Eh": -8.586557990482,
+      "grad_norm_Eh_per_a": 0.091535038729
+    }
+  },
+  "gp102": {
+    "b0_rot0": {
+      "energy_Eh": -8.556747539509,
+      "grad_norm_Eh_per_a": 0.079555942011
+    }
+  },
+  "gp67": {
+    "b0_rot0": {
+      "energy_Eh": -8.584776053453,
+      "grad_norm_Eh_per_a": 0.09121336008
+    }
+  },
+  "gp135": {
+    "b0_rot0": {
+      "energy_Eh": -8.583626506397,
+      "grad_norm_Eh_per_a": 0.077378557619
+    }
+  },
+  "gp491": {
+    "b0_rot0": {
+      "energy_Eh": -8.579866284601,
+      "grad_norm_Eh_per_a": 0.090984137907
+    }
+  },
+  "gp276": {
+    "b0_rot0": {
+      "energy_Eh": -8.553263181739,
+      "grad_norm_Eh_per_a": 0.039703836171
+    }
+  },
+  "gp407": {
+    "b0_rot0": {
+      "energy_Eh": -8.581652364564,
+      "grad_norm_Eh_per_a": 0.088780084248
+    }
+  },
+  "gp607": {
+    "b0_rot0": {
+      "energy_Eh": -8.599861418054,
+      "grad_norm_Eh_per_a": 0.108623174865
+    }
+  },
+  "gp68": {
+    "b0_rot0": {
+      "energy_Eh": -8.573995924334,
+      "grad_norm_Eh_per_a": 0.079783272336
+    }
+  },
+  "gp326": {
+    "b0_rot0": {
+      "energy_Eh": -8.570574580638,
+      "grad_norm_Eh_per_a": 0.096942903862
+    }
+  },
+  "gp112": {
+    "b0_rot0": {
+      "energy_Eh": -8.564369928077,
+      "grad_norm_Eh_per_a": 0.053959584427
+    }
+  },
+  "gp372": {
+    "b0_rot0": {
+      "energy_Eh": -8.558667655577,
+      "grad_norm_Eh_per_a": 0.079272212584
+    }
+  },
+  "gp163": {
+    "b0_rot0": {
+      "energy_Eh": -8.563223004046,
+      "grad_norm_Eh_per_a": 0.053086710036
+    }
+  },
+  "gp310": {
+    "b0_rot0": {
+      "energy_Eh": -8.557925309923,
+      "grad_norm_Eh_per_a": 0.051357501485
+    }
+  },
+  "gp43": {
+    "b0_rot0": {
+      "energy_Eh": -8.575094474068,
+      "grad_norm_Eh_per_a": 0.082899885478
+    }
+  },
+  "gp299": {
+    "b0_rot0": {
+      "energy_Eh": -8.574622896295,
+      "grad_norm_Eh_per_a": 0.099747304032
+    }
+  },
+  "gp484": {
+    "b0_rot0": {
+      "energy_Eh": -8.582909857801,
+      "grad_norm_Eh_per_a": 0.086625707167
+    }
+  },
+  "gp174": {
+    "b0_rot0": {
+      "energy_Eh": -8.568932604905,
+      "grad_norm_Eh_per_a": 0.084860216789
+    }
+  },
+  "gp428": {
+    "b0_rot0": {
+      "energy_Eh": -8.584132556714,
+      "grad_norm_Eh_per_a": 0.079496828212
+    }
+  },
+  "gp511": {
+    "b0_rot0": {
+      "energy_Eh": -8.582975895054,
+      "grad_norm_Eh_per_a": 0.082098279273
+    }
+  },
+  "gp108": {
+    "b0_rot0": {
+      "energy_Eh": -8.57676656912,
+      "grad_norm_Eh_per_a": 0.069639657143
+    }
+  },
+  "gp119": {
+    "b0_rot0": {
+      "energy_Eh": -8.571822378685,
+      "grad_norm_Eh_per_a": 0.069066945661
+    }
+  },
+  "gp232": {
+    "b0_rot0": {
+      "energy_Eh": -8.605690685748,
+      "grad_norm_Eh_per_a": 0.119135190151
+    }
+  },
+  "gp15": {
+    "b0_rot0": {
+      "energy_Eh": -8.563771233269,
+      "grad_norm_Eh_per_a": 0.051763120226
+    }
+  },
+  "gp306": {
+    "b0_rot0": {
+      "energy_Eh": -8.608224069234,
+      "grad_norm_Eh_per_a": 0.121840614604
+    }
+  },
+  "gp139": {
+    "b0_rot0": {
+      "energy_Eh": -8.56654099388,
+      "grad_norm_Eh_per_a": 0.086941247736
+    }
+  },
+  "gp73": {
+    "b0_rot0": {
+      "energy_Eh": -8.575806396009,
+      "grad_norm_Eh_per_a": 0.068677368658
+    }
+  },
+  "gp267": {
+    "b0_rot0": {
+      "energy_Eh": -8.555282105791,
+      "grad_norm_Eh_per_a": 0.052047584899
+    }
+  },
+  "gp565": {
+    "b0_rot0": {
+      "energy_Eh": -8.598549332348,
+      "grad_norm_Eh_per_a": 0.113497410529
+    }
+  },
+  "gp666": {
+    "b0_rot0": {
+      "energy_Eh": -8.59326240959,
+      "grad_norm_Eh_per_a": 0.117123303717
+    }
+  },
+  "gp409": {
+    "b0_rot0": {
+      "energy_Eh": -8.585730481808,
+      "grad_norm_Eh_per_a": 0.080936584176
+    }
+  },
+  "gp445": {
+    "b0_rot0": {
+      "energy_Eh": -8.58396083756,
+      "grad_norm_Eh_per_a": 0.082479879644
+    }
+  },
+  "gp596": {
+    "b0_rot0": {
+      "energy_Eh": -8.596242823466,
+      "grad_norm_Eh_per_a": 0.111163903313
+    }
+  },
+  "gp401": {
+    "b0_rot0": {
+      "energy_Eh": -8.6189322831,
+      "grad_norm_Eh_per_a": 0.126664468272
+    }
+  },
+  "gp277": {
+    "b0_rot0": {
+      "energy_Eh": -8.560423655788,
+      "grad_norm_Eh_per_a": 0.084099132823
+    }
+  },
+  "gp676": {
+    "b0_rot0": {
+      "energy_Eh": -8.591298117554,
+      "grad_norm_Eh_per_a": 0.112819485484
+    }
+  },
+  "gp700": {
+    "b0_rot0": {
+      "energy_Eh": -8.60822526757,
+      "grad_norm_Eh_per_a": 0.100823042642
+    }
+  },
+  "gp599": {
+    "b0_rot0": {
+      "energy_Eh": -8.595097502596,
+      "grad_norm_Eh_per_a": 0.111952658057
+    }
+  },
+  "gp603": {
+    "b0_rot0": {
+      "energy_Eh": -8.601202905027,
+      "grad_norm_Eh_per_a": 0.107596543091
+    }
+  },
+  "gp279": {
+    "b0_rot0": {
+      "energy_Eh": -8.554904348708,
+      "grad_norm_Eh_per_a": 0.048360174362
+    }
+  },
+  "gp571": {
+    "b0_rot0": {
+      "energy_Eh": -8.615436798661,
+      "grad_norm_Eh_per_a": 0.089641529087
+    }
+  },
+  "gp381": {
+    "b0_rot0": {
+      "energy_Eh": -8.566692393851,
+      "grad_norm_Eh_per_a": 0.074861475471
+    }
+  },
+  "gp423": {
+    "b0_rot0": {
+      "energy_Eh": -8.581384115108,
+      "grad_norm_Eh_per_a": 0.092101688757
+    }
+  },
+  "gp218": {
+    "b0_rot0": {
+      "energy_Eh": -8.583294249322,
+      "grad_norm_Eh_per_a": 0.080205824941
+    }
+  },
+  "gp616": {
+    "b0_rot0": {
+      "energy_Eh": -8.620613918149,
+      "grad_norm_Eh_per_a": 0.075207662996
+    }
+  },
+  "gp105": {
+    "b0_rot0": {
+      "energy_Eh": -8.575276395622,
+      "grad_norm_Eh_per_a": 0.067675581783
+    }
+  },
+  "gp369": {
+    "b0_rot0": {
+      "energy_Eh": -8.619316652748,
+      "grad_norm_Eh_per_a": 0.127614962321
+    }
+  },
+  "gp237": {
+    "b0_rot0": {
+      "energy_Eh": -8.584672746312,
+      "grad_norm_Eh_per_a": 0.096796169533
+    }
+  },
+  "gp58": {
+    "b0_rot0": {
+      "energy_Eh": -8.586318874857,
+      "grad_norm_Eh_per_a": 0.080837718664
+    }
+  },
+  "gp501": {
+    "b0_rot0": {
+      "energy_Eh": -8.584092040909,
+      "grad_norm_Eh_per_a": 0.084964829977
+    }
+  },
+  "gp393": {
+    "b0_rot0": {
+      "energy_Eh": -8.555430193454,
+      "grad_norm_Eh_per_a": 0.059817323056
+    }
+  },
+  "gp357": {
+    "b0_rot0": {
+      "energy_Eh": -8.554045995886,
+      "grad_norm_Eh_per_a": 0.033239415788
+    }
+  },
+  "gp65": {
+    "b0_rot0": {
+      "energy_Eh": -8.573204347773,
+      "grad_norm_Eh_per_a": 0.087103782395
+    }
+  },
+  "gp486": {
+    "b0_rot0": {
+      "energy_Eh": -8.581752795966,
+      "grad_norm_Eh_per_a": 0.091247176744
+    }
+  },
+  "gp36": {
+    "b0_rot0": {
+      "energy_Eh": -8.566583158812,
+      "grad_norm_Eh_per_a": 0.067875019843
+    }
+  },
+  "gp62": {
+    "b0_rot0": {
+      "energy_Eh": -8.574664890391,
+      "grad_norm_Eh_per_a": 0.080807396223
+    }
+  },
+  "gp24": {
+    "b0_rot0": {
+      "energy_Eh": -8.588653471901,
+      "grad_norm_Eh_per_a": 0.082627742749
+    }
+  },
+  "gp507": {
+    "b0_rot0": {
+      "energy_Eh": -8.579937033589,
+      "grad_norm_Eh_per_a": 0.086443222402
+    }
+  },
+  "gp489": {
+    "b0_rot0": {
+      "energy_Eh": -8.575986875291,
+      "grad_norm_Eh_per_a": 0.090199000866
+    }
+  },
+  "gp421": {
+    "b0_rot0": {
+      "energy_Eh": -8.581438774686,
+      "grad_norm_Eh_per_a": 0.091319203924
+    }
+  },
+  "gp96": {
+    "b0_rot0": {
+      "energy_Eh": -8.587510166338,
+      "grad_norm_Eh_per_a": 0.083552601961
+    }
+  },
+  "gp618": {
+    "b0_rot0": {
+      "energy_Eh": -8.595293203278,
+      "grad_norm_Eh_per_a": 0.111679341713
+    }
+  },
+  "gp269": {
+    "b0_rot0": {
+      "energy_Eh": -8.59224305272,
+      "grad_norm_Eh_per_a": 0.110842536759
+    }
+  },
+  "gp549": {
+    "b0_rot0": {
+      "energy_Eh": -8.583087388107,
+      "grad_norm_Eh_per_a": 0.083561350994
+    }
+  },
+  "gp520": {
+    "b0_rot0": {
+      "energy_Eh": -8.580601264547,
+      "grad_norm_Eh_per_a": 0.090470504576
+    }
+  },
+  "gp591": {
+    "b0_rot0": {
+      "energy_Eh": -8.592970082693,
+      "grad_norm_Eh_per_a": 0.108266124217
+    }
+  },
+  "gp564": {
+    "b0_rot0": {
+      "energy_Eh": -8.612497842796,
+      "grad_norm_Eh_per_a": 0.094921195228
+    }
+  },
+  "gp45": {
+    "b0_rot0": {
+      "energy_Eh": -8.59054320986,
+      "grad_norm_Eh_per_a": 0.09018626461
+    }
+  },
+  "gp551": {
+    "b0_rot0": {
+      "energy_Eh": -8.583275176051,
+      "grad_norm_Eh_per_a": 0.082443103255
+    }
+  },
+  "gp659": {
+    "b0_rot0": {
+      "energy_Eh": -8.592386159112,
+      "grad_norm_Eh_per_a": 0.114690890165
+    }
+  },
+  "gp434": {
+    "b0_rot0": {
+      "energy_Eh": -8.593393351532,
+      "grad_norm_Eh_per_a": 0.079330000974
+    }
+  },
+  "gp328": {
+    "b0_rot0": {
+      "energy_Eh": -8.575624592241,
+      "grad_norm_Eh_per_a": 0.098807667963
+    }
+  },
+  "gp195": {
+    "b0_rot0": {
+      "energy_Eh": -8.563869947765,
+      "grad_norm_Eh_per_a": 0.069935211301
+    }
+  },
+  "gp465": {
+    "b0_rot0": {
+      "energy_Eh": -8.579188837967,
+      "grad_norm_Eh_per_a": 0.088579514253
+    }
+  },
+  "gp671": {
+    "b0_rot0": {
+      "energy_Eh": -8.60696907044,
+      "grad_norm_Eh_per_a": 0.101906067123
+    }
+  },
+  "gp420": {
+    "b0_rot0": {
+      "energy_Eh": -8.582786148714,
+      "grad_norm_Eh_per_a": 0.084640461379
+    }
+  },
+  "gp189": {
+    "b0_rot0": {
+      "energy_Eh": -8.559015404162,
+      "grad_norm_Eh_per_a": 0.069955302833
+    }
+  },
+  "gp121": {
+    "b0_rot0": {
+      "energy_Eh": -8.569711547358,
+      "grad_norm_Eh_per_a": 0.0845198703
+    }
+  },
+  "gp557": {
+    "b0_rot0": {
+      "energy_Eh": -8.58453565673,
+      "grad_norm_Eh_per_a": 0.079494772079
+    }
+  },
+  "gp51": {
+    "b0_rot0": {
+      "energy_Eh": -8.582679004237,
+      "grad_norm_Eh_per_a": 0.093593154774
+    }
+  },
+  "gp183": {
+    "b0_rot0": {
+      "energy_Eh": -8.576109483429,
+      "grad_norm_Eh_per_a": 0.080224059463
+    }
+  },
+  "gp526": {
+    "b0_rot0": {
+      "energy_Eh": -8.585063774423,
+      "grad_norm_Eh_per_a": 0.083902354789
+    }
+  },
+  "gp150": {
+    "b0_rot0": {
+      "energy_Eh": -8.593320103501,
+      "grad_norm_Eh_per_a": 0.085823749569
+    }
+  },
+  "gp429": {
+    "b0_rot0": {
+      "energy_Eh": -8.580457272009,
+      "grad_norm_Eh_per_a": 0.085858372657
+    }
+  },
+  "gp459": {
+    "b0_rot0": {
+      "energy_Eh": -8.580773900178,
+      "grad_norm_Eh_per_a": 0.089538951328
+    }
+  },
+  "gp693": {
+    "b0_rot0": {
+      "energy_Eh": -8.621244395691,
+      "grad_norm_Eh_per_a": 0.072231009156
+    }
+  },
+  "gp398": {
+    "b0_rot0": {
+      "energy_Eh": -8.552238884812,
+      "grad_norm_Eh_per_a": 0.037266761482
+    }
+  },
+  "gp370": {
+    "b0_rot0": {
+      "energy_Eh": -8.579327535878,
+      "grad_norm_Eh_per_a": 0.105445909223
+    }
+  },
+  "gp663": {
+    "b0_rot0": {
+      "energy_Eh": -8.619121844821,
+      "grad_norm_Eh_per_a": 0.080092427377
+    }
+  },
+  "gp487": {
+    "b0_rot0": {
+      "energy_Eh": -8.581254001915,
+      "grad_norm_Eh_per_a": 0.09096107923
+    }
+  },
+  "gp125": {
+    "b0_rot0": {
+      "energy_Eh": -8.571566203087,
+      "grad_norm_Eh_per_a": 0.084103767444
+    }
+  },
+  "gp10": {
+    "b0_rot0": {
+      "energy_Eh": -8.567869580107,
+      "grad_norm_Eh_per_a": 0.072692272941
+    }
+  },
+  "gp317": {
+    "b0_rot0": {
+      "energy_Eh": -8.554576108035,
+      "grad_norm_Eh_per_a": 0.042936766667
+    }
+  },
+  "gp206": {
+    "b0_rot0": {
+      "energy_Eh": -8.57391408979,
+      "grad_norm_Eh_per_a": 0.069433309936
+    }
+  },
+  "gp338": {
+    "b0_rot0": {
+      "energy_Eh": -8.561999791723,
+      "grad_norm_Eh_per_a": 0.06701030297
+    }
+  },
+  "gp668": {
+    "b0_rot0": {
+      "energy_Eh": -8.592482483151,
+      "grad_norm_Eh_per_a": 0.11762987978
+    }
+  },
+  "gp196": {
+    "b0_rot0": {
+      "energy_Eh": -8.587055607502,
+      "grad_norm_Eh_per_a": 0.081082339541
+    }
+  },
+  "gp14": {
+    "b0_rot0": {
+      "energy_Eh": -8.568757563758,
+      "grad_norm_Eh_per_a": 0.071316031004
+    }
+  },
+  "gp462": {
+    "b0_rot0": {
+      "energy_Eh": -8.582122856135,
+      "grad_norm_Eh_per_a": 0.088338585
+    }
+  },
+  "gp208": {
+    "b0_rot0": {
+      "energy_Eh": -8.582874586992,
+      "grad_norm_Eh_per_a": 0.076923128603
+    }
+  },
+  "gp625": {
+    "b0_rot0": {
+      "energy_Eh": -8.618663362615,
+      "grad_norm_Eh_per_a": 0.081950049985
+    }
+  },
+  "gp400": {
+    "b0_rot0": {
+      "energy_Eh": -8.552366683846,
+      "grad_norm_Eh_per_a": 0.035866749947
+    }
+  },
+  "gp262": {
+    "b0_rot0": {
+      "energy_Eh": -8.630869144497,
+      "grad_norm_Eh_per_a": 0.133459164781
+    }
+  },
+  "gp34": {
+    "b0_rot0": {
+      "energy_Eh": -8.576391868152,
+      "grad_norm_Eh_per_a": 0.070943879935
+    }
+  },
+  "gp57": {
+    "b0_rot0": {
+      "energy_Eh": -8.581202820713,
+      "grad_norm_Eh_per_a": 0.088083157766
+    }
+  },
+  "gp558": {
+    "b0_rot0": {
+      "energy_Eh": -8.574239853648,
+      "grad_norm_Eh_per_a": 0.088493376478
+    }
+  },
+  "gp579": {
+    "b0_rot0": {
+      "energy_Eh": -8.592909472253,
+      "grad_norm_Eh_per_a": 0.112895601838
+    }
+  },
+  "gp494": {
+    "b0_rot0": {
+      "energy_Eh": -8.587643630428,
+      "grad_norm_Eh_per_a": 0.080818978081
+    }
+  },
+  "gp192": {
+    "b0_rot0": {
+      "energy_Eh": -8.557147508456,
+      "grad_norm_Eh_per_a": 0.076016087141
+    }
+  },
+  "gp556": {
+    "b0_rot0": {
+      "energy_Eh": -8.57788887105,
+      "grad_norm_Eh_per_a": 0.089616823291
+    }
+  },
+  "gp284": {
+    "b0_rot0": {
+      "energy_Eh": -8.619754168453,
+      "grad_norm_Eh_per_a": 0.128581347084
+    }
+  },
+  "gp316": {
+    "b0_rot0": {
+      "energy_Eh": -8.553215576504,
+      "grad_norm_Eh_per_a": 0.048512926718
+    }
+  },
+  "gp11": {
+    "b0_rot0": {
+      "energy_Eh": -8.568734425837,
+      "grad_norm_Eh_per_a": 0.052145403693
+    }
+  },
+  "gp255": {
+    "b0_rot0": {
+      "energy_Eh": -8.55465890164,
+      "grad_norm_Eh_per_a": 0.050041261964
+    }
+  },
+  "gp661": {
+    "b0_rot0": {
+      "energy_Eh": -8.592412672433,
+      "grad_norm_Eh_per_a": 0.114426536699
+    }
+  },
+  "gp367": {
+    "b0_rot0": {
+      "energy_Eh": -8.584271051515,
+      "grad_norm_Eh_per_a": 0.107922064164
+    }
+  },
+  "gp702": {
+    "b0_rot0": {
+      "energy_Eh": -8.620018663863,
+      "grad_norm_Eh_per_a": 0.077568280211
+    }
+  },
+  "gp523": {
+    "b0_rot0": {
+      "energy_Eh": -8.58249190106,
+      "grad_norm_Eh_per_a": 0.085291523323
+    }
+  },
+  "gp647": {
+    "b0_rot0": {
+      "energy_Eh": -8.609090553806,
+      "grad_norm_Eh_per_a": 0.09979507048
+    }
+  },
+  "gp309": {
+    "b0_rot0": {
+      "energy_Eh": -8.581839174328,
+      "grad_norm_Eh_per_a": 0.094804832833
+    }
+  },
+  "gp687": {
+    "b0_rot0": {
+      "energy_Eh": -8.618611741675,
+      "grad_norm_Eh_per_a": 0.082243370768
+    }
+  },
+  "gp187": {
+    "b0_rot0": {
+      "energy_Eh": -8.568951448802,
+      "grad_norm_Eh_per_a": 0.080892763053
+    }
+  },
+  "gp382": {
+    "b0_rot0": {
+      "energy_Eh": -8.554707684153,
+      "grad_norm_Eh_per_a": 0.036675903259
+    }
+  },
+  "gp47": {
+    "b0_rot0": {
+      "energy_Eh": -8.593359620955,
+      "grad_norm_Eh_per_a": 0.08675712683
+    }
+  },
+  "gp352": {
+    "b0_rot0": {
+      "energy_Eh": -8.607695519247,
+      "grad_norm_Eh_per_a": 0.119829975547
+    }
+  },
+  "gp594": {
+    "b0_rot0": {
+      "energy_Eh": -8.600802808499,
+      "grad_norm_Eh_per_a": 0.107602386313
+    }
+  },
+  "gp380": {
+    "b0_rot0": {
+      "energy_Eh": -8.578581132068,
+      "grad_norm_Eh_per_a": 0.101931362943
+    }
+  },
+  "gp566": {
+    "b0_rot0": {
+      "energy_Eh": -8.597425722117,
+      "grad_norm_Eh_per_a": 0.114700944215
+    }
+  },
+  "gp630": {
+    "b0_rot0": {
+      "energy_Eh": -8.592432832048,
+      "grad_norm_Eh_per_a": 0.107565250268
+    }
+  },
+  "gp161": {
+    "b0_rot0": {
+      "energy_Eh": -8.592194517934,
+      "grad_norm_Eh_per_a": 0.089910728267
+    }
+  },
+  "gp44": {
+    "b0_rot0": {
+      "energy_Eh": -8.5933488654,
+      "grad_norm_Eh_per_a": 0.087251648479
+    }
+  },
+  "gp285": {
+    "b0_rot0": {
+      "energy_Eh": -8.562499247284,
+      "grad_norm_Eh_per_a": 0.083326338282
+    }
+  },
+  "gp77": {
+    "b0_rot0": {
+      "energy_Eh": -8.576504637473,
+      "grad_norm_Eh_per_a": 0.069943503915
+    }
+  },
+  "gp360": {
+    "b0_rot0": {
+      "energy_Eh": -8.613495230669,
+      "grad_norm_Eh_per_a": 0.124756908761
+    }
+  },
+  "gp500": {
+    "b0_rot0": {
+      "energy_Eh": -8.58273756887,
+      "grad_norm_Eh_per_a": 0.081585576441
+    }
+  },
+  "gp113": {
+    "b0_rot0": {
+      "energy_Eh": -8.596442942695,
+      "grad_norm_Eh_per_a": 0.085815538779
+    }
+  },
+  "gp698": {
+    "b0_rot0": {
+      "energy_Eh": -8.59283498172,
+      "grad_norm_Eh_per_a": 0.110961559746
+    }
+  },
+  "gp275": {
+    "b0_rot0": {
+      "energy_Eh": -8.556406726353,
+      "grad_norm_Eh_per_a": 0.05938410361
+    }
+  },
+  "gp176": {
+    "b0_rot0": {
+      "energy_Eh": -8.572979448397,
+      "grad_norm_Eh_per_a": 0.068163601617
+    }
+  },
+  "gp521": {
+    "b0_rot0": {
+      "energy_Eh": -8.584123222904,
+      "grad_norm_Eh_per_a": 0.078979847709
+    }
+  },
+  "gp233": {
+    "b0_rot0": {
+      "energy_Eh": -8.58148596717,
+      "grad_norm_Eh_per_a": 0.094922861722
+    }
+  },
+  "gp580": {
+    "b0_rot0": {
+      "energy_Eh": -8.618468169295,
+      "grad_norm_Eh_per_a": 0.082502528789
+    }
+  },
+  "gp70": {
+    "b0_rot0": {
+      "energy_Eh": -8.585301788354,
+      "grad_norm_Eh_per_a": 0.084755233402
+    }
+  },
+  "gp417": {
+    "b0_rot0": {
+      "energy_Eh": -8.582155290589,
+      "grad_norm_Eh_per_a": 0.088018484326
+    }
+  },
+  "gp476": {
+    "b0_rot0": {
+      "energy_Eh": -8.582820539733,
+      "grad_norm_Eh_per_a": 0.084569663655
+    }
+  },
+  "gp532": {
+    "b0_rot0": {
+      "energy_Eh": -8.584351033786,
+      "grad_norm_Eh_per_a": 0.077989904247
+    }
+  },
+  "gp386": {
+    "b0_rot0": {
+      "energy_Eh": -8.58218008468,
+      "grad_norm_Eh_per_a": 0.10579744887
+    }
+  },
+  "gp442": {
+    "b0_rot0": {
+      "energy_Eh": -8.582054626721,
+      "grad_norm_Eh_per_a": 0.088271902635
+    }
+  },
+  "gp588": {
+    "b0_rot0": {
+      "energy_Eh": -8.592815733006,
+      "grad_norm_Eh_per_a": 0.110466233209
+    }
+  },
+  "gp461": {
+    "b0_rot0": {
+      "energy_Eh": -8.582270934391,
+      "grad_norm_Eh_per_a": 0.080354348785
+    }
+  },
+  "gp200": {
+    "b0_rot0": {
+      "energy_Eh": -8.59008248097,
+      "grad_norm_Eh_per_a": 0.083926432425
+    }
+  },
+  "gp12": {
+    "b0_rot0": {
+      "energy_Eh": -8.595317498563,
+      "grad_norm_Eh_per_a": 0.086414929968
+    }
+  },
+  "gp354": {
+    "b0_rot0": {
+      "energy_Eh": -8.553911422519,
+      "grad_norm_Eh_per_a": 0.034471889711
+    }
+  },
+  "gp610": {
+    "b0_rot0": {
+      "energy_Eh": -8.593867834744,
+      "grad_norm_Eh_per_a": 0.112470066978
+    }
+  },
+  "gp627": {
+    "b0_rot0": {
+      "energy_Eh": -8.59768792137,
+      "grad_norm_Eh_per_a": 0.110152052379
+    }
+  },
+  "gp64": {
+    "b0_rot0": {
+      "energy_Eh": -8.578179824503,
+      "grad_norm_Eh_per_a": 0.084981757863
+    }
+  },
+  "gp684": {
+    "b0_rot0": {
+      "energy_Eh": -8.593230177355,
+      "grad_norm_Eh_per_a": 0.113056446605
+    }
+  },
+  "gp364": {
+    "b0_rot0": {
+      "energy_Eh": -8.591803606433,
+      "grad_norm_Eh_per_a": 0.110205377389
+    }
+  },
+  "gp553": {
+    "b0_rot0": {
+      "energy_Eh": -8.584378265663,
+      "grad_norm_Eh_per_a": 0.085757440938
+    }
+  },
+  "gp207": {
+    "b0_rot0": {
+      "energy_Eh": -8.564492717495,
+      "grad_norm_Eh_per_a": 0.063929078574
+    }
+  },
+  "gp122": {
+    "b0_rot0": {
+      "energy_Eh": -8.584907653373,
+      "grad_norm_Eh_per_a": 0.081169931334
+    }
+  },
+  "gp220": {
+    "b0_rot0": {
+      "energy_Eh": -8.594907745779,
+      "grad_norm_Eh_per_a": 0.086731151361
+    }
+  },
+  "gp41": {
+    "b0_rot0": {
+      "energy_Eh": -8.594435851858,
+      "grad_norm_Eh_per_a": 0.087265075029
+    }
+  },
+  "gp541": {
+    "b0_rot0": {
+      "energy_Eh": -8.576796206407,
+      "grad_norm_Eh_per_a": 0.090144925445
+    }
+  },
+  "gp674": {
+    "b0_rot0": {
+      "energy_Eh": -8.60609847438,
+      "grad_norm_Eh_per_a": 0.102908474294
+    }
+  },
+  "gp402": {
+    "b0_rot0": {
+      "energy_Eh": -8.617612707327,
+      "grad_norm_Eh_per_a": 0.126035359487
+    }
+  },
+  "gp172": {
+    "b0_rot0": {
+      "energy_Eh": -8.570271799589,
+      "grad_norm_Eh_per_a": 0.084125385006
+    }
+  },
+  "gp695": {
+    "b0_rot0": {
+      "energy_Eh": -8.592582427153,
+      "grad_norm_Eh_per_a": 0.112004424576
+    }
+  },
+  "gp129": {
+    "b0_rot0": {
+      "energy_Eh": -8.593862668898,
+      "grad_norm_Eh_per_a": 0.088459867612
+    }
+  },
+  "gp25": {
+    "b0_rot0": {
+      "energy_Eh": -8.571257593905,
+      "grad_norm_Eh_per_a": 0.080630546382
+    }
+  },
+  "gp61": {
+    "b0_rot0": {
+      "energy_Eh": -8.592146198525,
+      "grad_norm_Eh_per_a": 0.085235807277
+    }
+  },
+  "gp55": {
+    "b0_rot0": {
+      "energy_Eh": -8.586698308678,
+      "grad_norm_Eh_per_a": 0.088736967916
+    }
+  },
+  "gp512": {
+    "b0_rot0": {
+      "energy_Eh": -8.581130761775,
+      "grad_norm_Eh_per_a": 0.088189686674
+    }
+  },
+  "gp545": {
+    "b0_rot0": {
+      "energy_Eh": -8.585924475511,
+      "grad_norm_Eh_per_a": 0.080287757243
+    }
+  },
+  "gp472": {
+    "b0_rot0": {
+      "energy_Eh": -8.587928973811,
+      "grad_norm_Eh_per_a": 0.079831272455
+    }
+  },
+  "gp365": {
+    "b0_rot0": {
+      "energy_Eh": -8.555412895476,
+      "grad_norm_Eh_per_a": 0.061466720221
+    }
+  },
+  "gp446": {
+    "b0_rot0": {
+      "energy_Eh": -8.580543263759,
+      "grad_norm_Eh_per_a": 0.091680386298
+    }
+  },
+  "gp224": {
+    "b0_rot0": {
+      "energy_Eh": -8.605378308752,
+      "grad_norm_Eh_per_a": 0.130027706835
+    }
+  },
+  "gp104": {
+    "b0_rot0": {
+      "energy_Eh": -8.558739326633,
+      "grad_norm_Eh_per_a": 0.079389076159
+    }
+  },
+  "gp493": {
+    "b0_rot0": {
+      "energy_Eh": -8.581466421937,
+      "grad_norm_Eh_per_a": 0.086781900868
+    }
+  },
+  "gp291": {
+    "b0_rot0": {
+      "energy_Eh": -8.576578030421,
+      "grad_norm_Eh_per_a": 0.101456135909
+    }
+  },
+  "gp48": {
+    "b0_rot0": {
+      "energy_Eh": -8.577844269327,
+      "grad_norm_Eh_per_a": 0.091783712153
+    }
+  },
+  "gp38": {
+    "b0_rot0": {
+      "energy_Eh": -8.580010431895,
+      "grad_norm_Eh_per_a": 0.078498934994
+    }
+  },
+  "gp547": {
+    "b0_rot0": {
+      "energy_Eh": -8.581331587556,
+      "grad_norm_Eh_per_a": 0.088477845419
+    }
+  },
+  "gp347": {
+    "b0_rot0": {
+      "energy_Eh": -8.55434171132,
+      "grad_norm_Eh_per_a": 0.038191608891
+    }
+  },
+  "gp680": {
+    "b0_rot0": {
+      "energy_Eh": -8.594324318693,
+      "grad_norm_Eh_per_a": 0.112455299274
+    }
+  },
+  "gp548": {
+    "b0_rot0": {
+      "energy_Eh": -8.590566585234,
+      "grad_norm_Eh_per_a": 0.077072259361
+    }
+  },
+  "gp655": {
+    "b0_rot0": {
+      "energy_Eh": -8.618337555848,
+      "grad_norm_Eh_per_a": 0.083021037118
+    }
+  },
+  "gp132": {
+    "b0_rot0": {
+      "energy_Eh": -8.569883287659,
+      "grad_norm_Eh_per_a": 0.054342431284
+    }
+  },
+  "gp66": {
+    "b0_rot0": {
+      "energy_Eh": -8.589223905538,
+      "grad_norm_Eh_per_a": 0.088136871336
+    }
+  },
+  "gp602": {
+    "b0_rot0": {
+      "energy_Eh": -8.590814346154,
+      "grad_norm_Eh_per_a": 0.110452011158
+    }
+  },
+  "gp272": {
+    "b0_rot0": {
+      "energy_Eh": -8.554459796529,
+      "grad_norm_Eh_per_a": 0.046903884936
+    }
+  },
+  "gp416": {
+    "b0_rot0": {
+      "energy_Eh": -8.574424536768,
+      "grad_norm_Eh_per_a": 0.090439852654
+    }
+  },
+  "gp142": {
+    "b0_rot0": {
+      "energy_Eh": -8.572476756858,
+      "grad_norm_Eh_per_a": 0.053024990423
+    }
+  },
+  "gp441": {
+    "b0_rot0": {
+      "energy_Eh": -8.576611287307,
+      "grad_norm_Eh_per_a": 0.087978958982
+    }
+  },
+  "gp353": {
+    "b0_rot0": {
+      "energy_Eh": -8.586109265514,
+      "grad_norm_Eh_per_a": 0.094985172668
+    }
+  },
+  "gp127": {
+    "b0_rot0": {
+      "energy_Eh": -8.579826769806,
+      "grad_norm_Eh_per_a": 0.080228386277
+    }
+  },
+  "gp686": {
+    "b0_rot0": {
+      "energy_Eh": -8.616059010146,
+      "grad_norm_Eh_per_a": 0.088539020053
+    }
+  },
+  "gp40": {
+    "b0_rot0": {
+      "energy_Eh": -8.567984134226,
+      "grad_norm_Eh_per_a": 0.079008686338
+    }
+  },
+  "gp515": {
+    "b0_rot0": {
+      "energy_Eh": -8.582225500793,
+      "grad_norm_Eh_per_a": 0.087539334947
+    }
+  },
+  "gp388": {
+    "b0_rot0": {
+      "energy_Eh": -8.56442470874,
+      "grad_norm_Eh_per_a": 0.072969796889
+    }
+  },
+  "gp656": {
+    "b0_rot0": {
+      "energy_Eh": -8.594592537782,
+      "grad_norm_Eh_per_a": 0.112110173647
+    }
+  },
+  "gp184": {
+    "b0_rot0": {
+      "energy_Eh": -8.563780701531,
+      "grad_norm_Eh_per_a": 0.078546858661
+    }
+  },
+  "gp167": {
+    "b0_rot0": {
+      "energy_Eh": -8.575838761366,
+      "grad_norm_Eh_per_a": 0.076089756316
+    }
+  },
+  "gp457": {
+    "b0_rot0": {
+      "energy_Eh": -8.577483728013,
+      "grad_norm_Eh_per_a": 0.089112432788
+    }
+  },
+  "gp74": {
+    "b0_rot0": {
+      "energy_Eh": -8.574479084699,
+      "grad_norm_Eh_per_a": 0.067605557107
+    }
+  },
+  "gp543": {
+    "b0_rot0": {
+      "energy_Eh": -8.580098408901,
+      "grad_norm_Eh_per_a": 0.091318719624
+    }
+  },
+  "gp210": {
+    "b0_rot0": {
+      "energy_Eh": -8.584988806941,
+      "grad_norm_Eh_per_a": 0.092767535918
+    }
+  },
+  "gp368": {
+    "b0_rot0": {
+      "energy_Eh": -8.557724587514,
+      "grad_norm_Eh_per_a": 0.070267112471
+    }
+  },
+  "gp653": {
+    "b0_rot0": {
+      "energy_Eh": -8.618510431582,
+      "grad_norm_Eh_per_a": 0.082421844299
+    }
+  },
+  "gp80": {
+    "b0_rot0": {
+      "energy_Eh": -8.585060053588,
+      "grad_norm_Eh_per_a": 0.084579997773
+    }
+  },
+  "gp250": {
+    "b0_rot0": {
+      "energy_Eh": -8.588961914532,
+      "grad_norm_Eh_per_a": 0.109850645681
+    }
+  },
+  "gp470": {
+    "b0_rot0": {
+      "energy_Eh": -8.584726526099,
+      "grad_norm_Eh_per_a": 0.078120017714
+    }
+  },
+  "gp377": {
+    "b0_rot0": {
+      "energy_Eh": -8.563695040593,
+      "grad_norm_Eh_per_a": 0.06810920383
+    }
+  },
+  "gp231": {
+    "b0_rot0": {
+      "energy_Eh": -8.552176106419,
+      "grad_norm_Eh_per_a": 0.036533555027
+    }
+  },
+  "gp282": {
+    "b0_rot0": {
+      "energy_Eh": -8.561029440689,
+      "grad_norm_Eh_per_a": 0.082677527689
+    }
+  },
+  "gp149": {
+    "b0_rot0": {
+      "energy_Eh": -8.561790270518,
+      "grad_norm_Eh_per_a": 0.05559427932
+    }
+  },
+  "gp308": {
+    "b0_rot0": {
+      "energy_Eh": -8.603131904097,
+      "grad_norm_Eh_per_a": 0.116815777187
+    }
+  },
+  "gp281": {
+    "b0_rot0": {
+      "energy_Eh": -8.620803741963,
+      "grad_norm_Eh_per_a": 0.129097069304
+    }
+  },
+  "gp342": {
+    "b0_rot0": {
+      "energy_Eh": -8.570995881873,
+      "grad_norm_Eh_per_a": 0.086298813529
+    }
+  },
+  "gp134": {
+    "b0_rot0": {
+      "energy_Eh": -8.5696946354,
+      "grad_norm_Eh_per_a": 0.055953502212
+    }
+  },
+  "gp383": {
+    "b0_rot0": {
+      "energy_Eh": -8.585099478638,
+      "grad_norm_Eh_per_a": 0.106898589729
+    }
+  },
+  "gp116": {
+    "b0_rot0": {
+      "energy_Eh": -8.561889380664,
+      "grad_norm_Eh_per_a": 0.052470146769
+    }
+  },
+  "gp704": {
+    "b0_rot0": {
+      "energy_Eh": -8.596344181511,
+      "grad_norm_Eh_per_a": 0.111175916835
+    }
+  },
+  "gp46": {
+    "b0_rot0": {
+      "energy_Eh": -8.569991335312,
+      "grad_norm_Eh_per_a": 0.072233128135
+    }
+  },
+  "gp374": {
+    "b0_rot0": {
+      "energy_Eh": -8.557607220669,
+      "grad_norm_Eh_per_a": 0.071974541467
+    }
+  },
+  "gp405": {
+    "b0_rot0": {
+      "energy_Eh": -8.581809336998,
+      "grad_norm_Eh_per_a": 0.086835648422
+    }
+  },
+  "gp508": {
+    "b0_rot0": {
+      "energy_Eh": -8.581294802863,
+      "grad_norm_Eh_per_a": 0.092375038531
+    }
+  },
+  "gp270": {
+    "b0_rot0": {
+      "energy_Eh": -8.571661755669,
+      "grad_norm_Eh_per_a": 0.085538046488
+    }
+  },
+  "gp225": {
+    "b0_rot0": {
+      "energy_Eh": -8.555383986067,
+      "grad_norm_Eh_per_a": 0.05262461755
+    }
+  },
+  "gp85": {
+    "b0_rot0": {
+      "energy_Eh": -8.58561887301,
+      "grad_norm_Eh_per_a": 0.092917190177
+    }
+  },
+  "gp339": {
+    "b0_rot0": {
+      "energy_Eh": -8.576178852205,
+      "grad_norm_Eh_per_a": 0.105781201413
+    }
+  },
+  "gp227": {
+    "b0_rot0": {
+      "energy_Eh": -8.553412709524,
+      "grad_norm_Eh_per_a": 0.038432900508
+    }
+  },
+  "gp581": {
+    "b0_rot0": {
+      "energy_Eh": -8.603465516255,
+      "grad_norm_Eh_per_a": 0.105563625238
+    }
+  },
+  "gp562": {
+    "b0_rot0": {
+      "energy_Eh": -8.58185678586,
+      "grad_norm_Eh_per_a": 0.089843080367
+    }
+  },
+  "gp542": {
+    "b0_rot0": {
+      "energy_Eh": -8.581964232132,
+      "grad_norm_Eh_per_a": 0.089349281545
+    }
+  },
+  "gp449": {
+    "b0_rot0": {
+      "energy_Eh": -8.58397096845,
+      "grad_norm_Eh_per_a": 0.084688976457
+    }
+  },
+  "gp688": {
+    "b0_rot0": {
+      "energy_Eh": -8.615462205233,
+      "grad_norm_Eh_per_a": 0.089834931561
+    }
+  },
+  "gp517": {
+    "b0_rot0": {
+      "energy_Eh": -8.581840337605,
+      "grad_norm_Eh_per_a": 0.084723683044
+    }
+  },
+  "gp130": {
+    "b0_rot0": {
+      "energy_Eh": -8.563413399547,
+      "grad_norm_Eh_per_a": 0.079517715298
+    }
+  },
+  "gp26": {
+    "b0_rot0": {
+      "energy_Eh": -8.592719260419,
+      "grad_norm_Eh_per_a": 0.085896443803
+    }
+  },
+  "gp348": {
+    "b0_rot0": {
+      "energy_Eh": -8.565478084017,
+      "grad_norm_Eh_per_a": 0.094929469668
+    }
+  },
+  "gp440": {
+    "b0_rot0": {
+      "energy_Eh": -8.58048575806,
+      "grad_norm_Eh_per_a": 0.090328623188
+    }
+  },
+  "gp182": {
+    "b0_rot0": {
+      "energy_Eh": -8.590441564197,
+      "grad_norm_Eh_per_a": 0.089540764726
+    }
+  },
+  "gp587": {
+    "b0_rot0": {
+      "energy_Eh": -8.604986734903,
+      "grad_norm_Eh_per_a": 0.103947831701
+    }
+  },
+  "gp98": {
+    "b0_rot0": {
+      "energy_Eh": -8.590098622081,
+      "grad_norm_Eh_per_a": 0.085934072984
+    }
+  },
+  "gp287": {
+    "b0_rot0": {
+      "energy_Eh": -8.581240471319,
+      "grad_norm_Eh_per_a": 0.104605393845
+    }
+  },
+  "gp117": {
+    "b0_rot0": {
+      "energy_Eh": -8.575207005948,
+      "grad_norm_Eh_per_a": 0.091117101174
+    }
+  },
+  "gp498": {
+    "b0_rot0": {
+      "energy_Eh": -8.576481623808,
+      "grad_norm_Eh_per_a": 0.089816013454
+    }
+  },
+  "gp181": {
+    "b0_rot0": {
+      "energy_Eh": -8.571283141945,
+      "grad_norm_Eh_per_a": 0.085170748323
+    }
+  },
+  "gp302": {
+    "b0_rot0": {
+      "energy_Eh": -8.571742427844,
+      "grad_norm_Eh_per_a": 0.106120476389
+    }
+  },
+  "gp171": {
+    "b0_rot0": {
+      "energy_Eh": -8.594884472526,
+      "grad_norm_Eh_per_a": 0.086400110943
+    }
+  },
+  "gp221": {
+    "b0_rot0": {
+      "energy_Eh": -8.567421341218,
+      "grad_norm_Eh_per_a": 0.085682993675
+    }
+  },
+  "gp241": {
+    "b0_rot0": {
+      "energy_Eh": -8.560315538234,
+      "grad_norm_Eh_per_a": 0.082784141211
+    }
+  },
+  "gp509": {
+    "b0_rot0": {
+      "energy_Eh": -8.581952060143,
+      "grad_norm_Eh_per_a": 0.08875942381
+    }
+  },
+  "gp280": {
+    "b0_rot0": {
+      "energy_Eh": -8.5921270401,
+      "grad_norm_Eh_per_a": 0.112149597685
+    }
+  },
+  "gp19": {
+    "b0_rot0": {
+      "energy_Eh": -8.583115632517,
+      "grad_norm_Eh_per_a": 0.080241652801
+    }
+  },
+  "gp358": {
+    "b0_rot0": {
+      "energy_Eh": -8.579925199705,
+      "grad_norm_Eh_per_a": 0.106197746896
+    }
+  },
+  "gp552": {
+    "b0_rot0": {
+      "energy_Eh": -8.582062630848,
+      "grad_norm_Eh_per_a": 0.083059815762
+    }
+  },
+  "gp201": {
+    "b0_rot0": {
+      "energy_Eh": -8.589788877386,
+      "grad_norm_Eh_per_a": 0.084014764941
+    }
+  },
+  "gp60": {
+    "b0_rot0": {
+      "energy_Eh": -8.563281733624,
+      "grad_norm_Eh_per_a": 0.058394045233
+    }
+  },
+  "gp31": {
+    "b0_rot0": {
+      "energy_Eh": -8.59491433602,
+      "grad_norm_Eh_per_a": 0.087275307125
+    }
+  },
+  "gp397": {
+    "b0_rot0": {
+      "energy_Eh": -8.558346596092,
+      "grad_norm_Eh_per_a": 0.072464741221
+    }
+  },
+  "gp379": {
+    "b0_rot0": {
+      "energy_Eh": -8.559414485449,
+      "grad_norm_Eh_per_a": 0.083453280665
+    }
+  },
+  "gp665": {
+    "b0_rot0": {
+      "energy_Eh": -8.604083096145,
+      "grad_norm_Eh_per_a": 0.106504685224
+    }
+  },
+  "gp488": {
+    "b0_rot0": {
+      "energy_Eh": -8.582573936551,
+      "grad_norm_Eh_per_a": 0.081922298819
+    }
+  },
+  "gp140": {
+    "b0_rot0": {
+      "energy_Eh": -8.559299076673,
+      "grad_norm_Eh_per_a": 0.05575455767
+    }
+  },
+  "gp21": {
+    "b0_rot0": {
+      "energy_Eh": -8.581212635007,
+      "grad_norm_Eh_per_a": 0.091981558367
+    }
+  },
+  "gp415": {
+    "b0_rot0": {
+      "energy_Eh": -8.578567003401,
+      "grad_norm_Eh_per_a": 0.090272905
+    }
+  },
+  "gp654": {
+    "b0_rot0": {
+      "energy_Eh": -8.602802267815,
+      "grad_norm_Eh_per_a": 0.106243332195
+    }
+  },
+  "gp297": {
+    "b0_rot0": {
+      "energy_Eh": -8.556219154681,
+      "grad_norm_Eh_per_a": 0.055678556314
+    }
+  },
+  "gp622": {
+    "b0_rot0": {
+      "energy_Eh": -8.614740313911,
+      "grad_norm_Eh_per_a": 0.090962835573
+    }
+  },
+  "gp689": {
+    "b0_rot0": {
+      "energy_Eh": -8.591721776664,
+      "grad_norm_Eh_per_a": 0.104083576998
+    }
+  },
+  "gp600": {
+    "b0_rot0": {
+      "energy_Eh": -8.596483126079,
+      "grad_norm_Eh_per_a": 0.110897561594
+    }
+  },
+  "gp574": {
+    "b0_rot0": {
+      "energy_Eh": -8.621084161129,
+      "grad_norm_Eh_per_a": 0.073035551073
+    }
+  },
+  "gp546": {
+    "b0_rot0": {
+      "energy_Eh": -8.582206524018,
+      "grad_norm_Eh_per_a": 0.0876466008
+    }
+  },
+  "gp378": {
+    "b0_rot0": {
+      "energy_Eh": -8.55406443878,
+      "grad_norm_Eh_per_a": 0.033310121281
+    }
+  },
+  "gp94": {
+    "b0_rot0": {
+      "energy_Eh": -8.580850148207,
+      "grad_norm_Eh_per_a": 0.076322635931
+    }
+  },
+  "gp0": {
+    "b0_rot0": {
+      "energy_Eh": -8.580187367598,
+      "grad_norm_Eh_per_a": 0.081634929629
+    }
+  },
+  "gp292": {
+    "b0_rot0": {
+      "energy_Eh": -8.562095752244,
+      "grad_norm_Eh_per_a": 0.066637401434
+    }
+  },
+  "gp158": {
+    "b0_rot0": {
+      "energy_Eh": -8.592520670968,
+      "grad_norm_Eh_per_a": 0.087500848416
+    }
+  },
+  "gp615": {
+    "b0_rot0": {
+      "energy_Eh": -8.616022740669,
+      "grad_norm_Eh_per_a": 0.088461083301
+    }
+  },
+  "gp99": {
+    "b0_rot0": {
+      "energy_Eh": -8.571355253695,
+      "grad_norm_Eh_per_a": 0.082437082031
+    }
+  },
+  "gp18": {
+    "b0_rot0": {
+      "energy_Eh": -8.576192599085,
+      "grad_norm_Eh_per_a": 0.089093654203
+    }
+  }
+}

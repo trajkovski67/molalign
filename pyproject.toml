@@ -15,6 +15,8 @@ molalign-run = "molalign.driver:main"
 plot-grid-energy = "molalign.plot_grid_point_energy:main"
 plot-normals = "molalign.plot_normals:main"
 boltzmann = "molalign.boltzmann_average:main"
+molalign = "molalign.run_molalign_tb:main"
+align-grid-tb = "molalign.all_grid_tb:cli_main"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
