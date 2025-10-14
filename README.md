@@ -18,7 +18,7 @@ plot-grid-energy mol1.npz xtb_results.json
 Plots energy grids based on CPCM and xTB results data.
 
 slice [-h] [--tol TOL] [--sigma SIGMA] args [args ...]
-Generates 2D slices of the interaction energy map to visualize local variations.
+Generates 2D slices of the interaction energy map to visualize local variations. args: XY, YZ, ZY for coordinate planes or three atoms given by their indices for e.g [0 2 4].
 
 boltzmann [-h] [--temperature TEMPERATURE] [--top_n TOP_N] [--out_dir OUT_DIR] json_files [json_files ...] polish
 Performs Boltzmann-weighted averaging of energy distributions with optional filtering by top conformations and output directory specification.
