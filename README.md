@@ -4,7 +4,7 @@ Installation:
 pip install -e .
 
 Usage:
-molalign-run [-h] [--angles ANGLES] [--charge CHARGE] molA_cpcm molB_cpcm
+molalign [-h] [--angles ANGLES] [--charge CHARGE] molA_cpcm molB_cpcm
 molA_cpcm is the solute CPCM file, molB_cpcm is the solvent CPCM file.
 --angles specifies rotation angles (e.g. 0,45,90) for solvent rotations around the aligned normal for each grid point.
 --charge sets the molecular charge value.
