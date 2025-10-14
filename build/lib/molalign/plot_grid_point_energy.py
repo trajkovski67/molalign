@@ -26,14 +26,18 @@ def main():
     # Load JSON energy results
     with open(json_file, "r") as f:
         xtb_results = json.load(f)
+    E_solute = xtb_results["solute"]["energy_Eh"]
+    E_solvent = xtb_results["solvent"]["energy_Eh"]
 
+    #print(f"Solute energy: {E_solute} Eh")
+    #print(f"Solvent energy: {E_solvent} Eh")
     # Compute lowest energy per grid point
     lowest_energy = []
     for i in range(len(grid_coords)):
         gp_key = f"gp{i}"
         if gp_key in xtb_results:
             energies = [v["energy_Eh"] for v in xtb_results[gp_key].values()]
-            lowest_energy.append(min(energies))
+            lowest_energy.append((min(energies)-E_solute-E_solvent)*627.5)
         else:
             lowest_energy.append(np.nan)
     lowest_energy = np.array(lowest_energy)

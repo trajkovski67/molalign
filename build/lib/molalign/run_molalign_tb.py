@@ -2,7 +2,7 @@
 """
 Wrapper to run molalign TB-lite workflow:
 1. Convert solute/solvent CPCM → NPZ.
-2. Align grids and run TB-lite single-point calculations.
+2. Align grids and run TB-lite single-point calculations with optional charge.
 3. Save all results in one JSON file inside output directory.
 """
 import argparse
@@ -16,12 +16,14 @@ def main():
     parser.add_argument("solvent_cpcm", help="CPCM file for solvent")
     parser.add_argument("--out", default="OUT", help="Output directory")
     parser.add_argument("--angles", default="0,90,180,270", help="Comma-separated rotation angles")
+    parser.add_argument("--charge", type=int, default=0, help="Total charge for the TB-lite calculation")
     args = parser.parse_args()
 
     solute = os.path.abspath(args.solute_cpcm)
     solvent = os.path.abspath(args.solvent_cpcm)
     out_dir = os.path.abspath(args.out)
     angles = args.angles
+    charge = args.charge
 
     os.makedirs(out_dir, exist_ok=True)
 
@@ -47,9 +49,10 @@ def main():
     solute_npz = os.path.join(out_dir, f"{os.path.splitext(os.path.basename(solute))[0]}_data.npz")
     solvent_npz = os.path.join(out_dir, f"{os.path.splitext(os.path.basename(solvent))[0]}_data.npz")
 
-    print(f"\n*** Running: align-grid-tb {solute_npz} {solvent_npz} {angles}")
+    print(f"\n*** Running: align-grid-tb {solute_npz} {solvent_npz} {angles} --charge {charge}")
     try:
-        subprocess.run(["align-grid-tb", solute_npz, solvent_npz, angles], check=True)
+        # Pass charge to align-grid-tb CLI
+        subprocess.run(["align-grid-tb", solute_npz, solvent_npz, angles, "--charge", str(charge)], check=True)
     except subprocess.CalledProcessError as e:
         print(f"ERROR: align-grid-tb failed: {e}", file=sys.stderr)
         sys.exit(1)

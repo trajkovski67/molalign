@@ -16,11 +16,10 @@ def atoms_to_xyz_list(coords, atomic_numbers):
     return [{"element": str(int(Z)), "x": float(p[0]), "y": float(p[1]), "z": float(p[2])}
             for p, Z in zip(coords, atomic_numbers)]
 
-def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB"):
-    """Run TB-lite single-point, suppress verbose output."""
+def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB", charge=0):
+    """Run TB-lite single-point, suppress verbose output, supports charge."""
     coords_bohr = np.array(coords_angstrom) / BOHR_TO_ANG
-    calc = Calculator(method, np.array(atomic_numbers), coords_bohr)
-    # Suppress printed output
+    calc = Calculator(method, np.array(atomic_numbers), coords_bohr, charge=charge)
     f = io.StringIO()
     with contextlib.redirect_stdout(f):
         res = calc.singlepoint()
@@ -103,8 +102,8 @@ def main(fileA, fileB, idxA, angles=[0], charge=0):
             Z_combined = np.hstack((Z_A, Z_B))
 
             key = f"b{idxB}_rot{int(angle)}"
-            # Run TB-lite SP for this complex
-            energy = run_tblite_sp(atoms_combined, Z_combined)
+            # Run TB-lite SP for this complex with charge
+            energy = run_tblite_sp(atoms_combined, Z_combined, charge=charge)
             all_complexes[key] = {
                 "energy_Eh": float(energy),
                 "xyz": atoms_to_xyz_list(atoms_combined, Z_combined)

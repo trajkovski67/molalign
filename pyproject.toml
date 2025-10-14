@@ -14,8 +14,11 @@ xtb-extract = "molalign.extract_xtb_results:main"
 molalign-run = "molalign.driver:main"
 plot-grid-energy = "molalign.plot_grid_point_energy:main"
 plot-normals = "molalign.plot_normals:main"
-boltzmann = "molalign.boltzmann_average:main"
+slice = "molalign.slice:main"
+plot-grid = "molalign.plot_grid:main"
+boltzmann = "molalign.boltzmann_average:cli_main"
 molalign = "molalign.run_molalign_tb:main"
+molalign-extended = "molalign.run_extended_grids_tb:main"
 align-grid-tb = "molalign.all_grid_tb:cli_main"
 [build-system]
 requires = ["setuptools", "wheel"]

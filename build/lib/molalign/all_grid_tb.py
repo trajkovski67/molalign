@@ -18,17 +18,43 @@ def atoms_to_xyz_list(coords, atomic_numbers):
     return [{"element": str(int(Z)), "x": float(p[0]), "y": float(p[1]), "z": float(p[2])}
             for p, Z in zip(coords, atomic_numbers)]
 
-def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB"):
+# --- MODIFIED: added charge parameter ---
+def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB", charge=0):
+    """
+    Run a single-point calculation using tblite.
+
+    Parameters:
+        coords_angstrom (array-like): Atomic coordinates in Angstrom.
+        atomic_numbers (array-like): Atomic numbers of atoms.
+        method (str): The xTB method to use (default "GFN2-xTB").
+        charge (int): Total charge of the molecule.
+
+    Returns:
+        float: Energy in Hartree.
+    """
+    import numpy as np
     from tblite.interface import Calculator
     import contextlib, io
+
+    # Convert coordinates to Bohr
     coords_bohr = np.array(coords_angstrom) / BOHR_TO_ANG
-    calc = Calculator(method, np.array(atomic_numbers), coords_bohr)
+
+    # Initialize calculator with charge (correct way)
+    calc = Calculator(method, np.array(atomic_numbers), coords_bohr, charge=charge)
+
+    # Capture stdout to avoid printing
     f = io.StringIO()
     with contextlib.redirect_stdout(f):
         res = calc.singlepoint()
+
+    # Return energy
     return res.get("energy")
 
 def main(fileA, fileB, angles_csv, charge=0, out_json="tb_lite_results.json"):
+    import os
+    import numpy as np
+    import molalign.align_many_to_one_tb as align_mod
+
     fileA = os.path.abspath(fileA)
     fileB = os.path.abspath(fileB)
     angles = [float(a) for a in angles_csv.split(",")]
@@ -41,18 +67,24 @@ def main(fileA, fileB, angles_csv, charge=0, out_json="tb_lite_results.json"):
     atomsB = dataB["atoms"][:, :3]
     Z_B = dataB["atoms"][:, 3].astype(int)
 
-    results = {}
+    # --- NEW: Include molA grid points in the results JSON ---
+    results = {
+        "molA_grids_xyz": dataA["grids"][:, :3].tolist()
+    }
 
-    # Solute/solvent SP
-    e_solute = run_tblite_sp(atomsA, Z_A)
+    # --- MODIFIED: solute uses user-specified charge ---
+    e_solute = run_tblite_sp(atomsA, Z_A, charge=charge)
     results["solute"] = {
         "energy_Eh": float(e_solute),
+        "charge": charge,
         "xyz": atoms_to_xyz_list(atomsA, Z_A)
     }
 
-    e_solvent = run_tblite_sp(atomsB, Z_B)
+    # --- MODIFIED: solvent always neutral (charge=0) ---
+    e_solvent = run_tblite_sp(atomsB, Z_B, charge=0)
     results["solvent"] = {
         "energy_Eh": float(e_solvent),
+        "charge": 0,
         "xyz": atoms_to_xyz_list(atomsB, Z_B)
     }
 
@@ -75,6 +107,7 @@ def main(fileA, fileB, angles_csv, charge=0, out_json="tb_lite_results.json"):
 
     # Save results to JSON safely
     with open(out_json, "w") as fh:
+        import json
         json.dump(results, fh, indent=2, default=convert_numpy)
 
     print(f"*** Saved all SP results to {out_json}")
