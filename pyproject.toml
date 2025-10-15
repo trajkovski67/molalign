@@ -20,6 +20,11 @@ boltzmann = "molalign.boltzmann_average:cli_main"
 molalign = "molalign.run_molalign_tb:main"
 molalign-extended = "molalign.run_extended_grids_tb:main"
 align-grid-tb = "molalign.all_grid_tb:cli_main"
+align-grid-tb-parallel = "molalign.all_grid_tb_parallel:cli_main"
+molalign-extended-parallel = "molalign.run_extended_grids_tb_parallel:main"
+cluster-solv = "molalign.cluster_solv:main"
+cluster-solv-opt = "molalign.cluster_solv_opt:main"
+dGloc = "molalign.dGloc:main"
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"

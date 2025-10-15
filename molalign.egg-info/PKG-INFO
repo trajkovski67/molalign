@@ -9,14 +9,27 @@ Requires-Dist: numpy
 Requires-Dist: scipy
 Dynamic: requires-python
 
-**molalign** is a toolkit for automating molecular alignment, CPCM data parsing, and xTB result extraction.
-## Installation
-```bash
+molalign is a toolkit for automating molecular alignment, parsing CPCM data, and extracting xTB results. It provides utilities for molecular surface scanning, and energy map visualization.
+
+Installation:
 pip install -e .
 
-usage: molalign-run [-h] [--angles ANGLES] [--charge CHARGE] molA_cpcm molB_cpcm
-where ANGLES is csv of angles (e.g. 0,45,90) the solvent rotates around the aligned normal for each grid point.
-mol1 - solute, mol2 - solvent
+Usage:
+molalign [-h] [--angles ANGLES] [--charge CHARGE] molA_cpcm molB_cpcm
+molA_cpcm is the solute CPCM file, molB_cpcm is the solvent CPCM file.
+--angles specifies rotation angles (e.g. 0,45,90) for solvent rotations around the aligned normal for each grid point.
+--charge sets the molecular charge value.
 
-to visualize: plot-grid-energy mol1.npz xtb_results.json
+Extended Run (3D Scan):
+molalign-extended [-h] [--out OUT] [--angles ANGLES] [--charge CHARGE] [--shifts SHIFTS [SHIFTS ...]] solute_cpcm solvent_cpcm
+Performs a 3D scan along the normal direction. The SHIFTS are given in angstroms (e.g. -0.5 0.0 0.5 1.0). Negative shifts are valid but may lead to localized spheres. After positive shifts, the union of grid points is not taken, which can distort the cavity instead of scaling it.
 
+Visualization and Analysis Tools:
+plot-grid-energy mol1.npz xtb_results.json
+Plots energy grids based on CPCM and xTB results data.
+
+slice [-h] [--tol TOL] [--sigma SIGMA] args [args ...]
+Generates 2D slices of the interaction energy map to visualize local variations. args: XY, YZ, ZY for coordinate planes or three atoms given by their indices for e.g [0 2 4].
+
+boltzmann [-h] [--temperature TEMPERATURE] [--top_n TOP_N] [--out_dir OUT_DIR] json_files [json_files ...] polish
+Performs Boltzmann-weighted averaging of energy distributions with optional filtering by top conformations and output directory specification.

@@ -23,10 +23,10 @@ def run_xtb_scans(xyz_root: str, charge: int = 0):
 
     for xyz in xyz_files:
         out_file = os.path.splitext(xyz)[0] + ".out"
-        #print(f"▶ Running xTB for {xyz} → {out_file}")
+        print(f"▶ Running xTB for {xyz} → {out_file}")
         try:
             subprocess.run(
-                ["xtb", xyz, "--sp", f"--chrg", str(charge)],
+                ["xtb", "--gfnff",xyz, "--sp ", f"--chrg", str(charge)],
                 stdout=open(out_file, "w"),
                 stderr=subprocess.STDOUT,
                 check=True,
