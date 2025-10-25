@@ -12,6 +12,7 @@ import json
 import numpy as np
 import os
 import sys
+import glob
 
 HARTREE_TO_KCAL = 627.5095
 kB = 0.0019872041  # kcal/mol/K
@@ -39,15 +40,19 @@ def collect_complexes(json_files):
     """Return list of (key, ΔE, xyz) tuples from multiple JSONs"""
     complexes = []
     for f in json_files:
-        with open(f) as fh:
-            data = json.load(fh)  # <- fixed
+        try:
+            with open(f) as fh:
+                data = json.load(fh)
+        except Exception as e:
+            #print(f"[warn] Skipping file {f}: cannot read JSON ({e})")
+            continue
 
         # Read solute and solvent energies
         try:
             E_solute = float(data['solute']['energy_Eh'])
             E_solvent = float(data['solvent']['energy_Eh'])
         except KeyError:
-            print(f"Skipping file {f}: missing solute/solvent energies")
+            #print(f"[warn] Skipping file {f}: missing solute/solvent energies")
             continue
 
         for gp_key, gp_data in data.items():
@@ -60,19 +65,19 @@ def collect_complexes(json_files):
             elif isinstance(gp_data, list):
                 complex_items = enumerate(gp_data)
             else:
-                print(f"Skipping unexpected entry {gp_key} in {f}")
                 continue
 
             for complex_key, complex_entry in complex_items:
                 try:
                     E_complex = float(complex_entry['energy_Eh'])
                     deltaE_kcal = (E_complex - (E_solute + E_solvent)) * HARTREE_TO_KCAL
+                    xyz = complex_entry.get('xyz', [])
                     complexes.append((f"{os.path.basename(f)}_{gp_key}_{complex_key}",
                                       deltaE_kcal,
-                                      complex_entry.get('xyz', [])))
+                                      xyz))
                 except Exception as e:
-                    x=1
-                    #print(f"Skipping complex {gp_key}_{complex_key} in {f}: {e}")
+                    #print(f"[warn] Skipping complex {gp_key}_{complex_key} in {f}: {e}")
+                    continue
     return complexes
 
 def main(json_files, T=298.15, top_n=10, out_dir="top_complexes"):
@@ -84,7 +89,7 @@ def main(json_files, T=298.15, top_n=10, out_dir="top_complexes"):
 
     complexes = collect_complexes(json_files)
     if not complexes:
-        print("No complexes found in the input JSON files!")
+        print("No valid complexes found in the input JSON files!")
         sys.exit(1)
 
     keys, deltaE_list, xyz_list = zip(*complexes)
@@ -94,28 +99,44 @@ def main(json_files, T=298.15, top_n=10, out_dir="top_complexes"):
 
     print(f"\nBoltzmann-weighted average interaction energy at T={T} K: {E_avg:.3f} kcal/mol")
 
-    # Top N complexes
+    # Top N complexes by Boltzmann weight
     top_indices = np.argsort(-weights)[:top_n]
-    print(f"\nTop {top_n} complexes by Boltzmann weight:")
+    #print(f"\nTop {top_n} complexes by Boltzmann weight:")
     for i in top_indices:
         key = keys[i]
         deltaE = deltaE_list[i]
         weight = weights[i]
-        print(f"{key}: ΔE={deltaE:.3f}, weight={weight:.3f}")
+        #print(f"{key}: ΔE={deltaE:.3f}, weight={weight:.3f}")
         xyz_file = os.path.join(out_dir, f"{key}.xyz")
         save_xyz(xyz_list[i], xyz_file, comment=f"{key} ΔE={deltaE:.3f} kcal/mol")
-        print(f"Saved XYZ: {xyz_file}")
+        #print(f"Saved XYZ: {xyz_file}")
 
 def cli_main():
     import argparse
     parser = argparse.ArgumentParser(description="Boltzmann analysis of multiple TB-lite JSON results")
-    parser.add_argument("json_files", nargs="+", help="TB-lite JSON result files")
     parser.add_argument("--temperature", type=float, default=298.15, help="Temperature in K")
     parser.add_argument("--top_n", type=int, default=10, help="Number of top complexes to save")
     parser.add_argument("--out_dir", default="top_complexes", help="Directory to save XYZ files")
+    parser.add_argument("--recursive", action="store_true", help="Search subdirectories for JSON files")
     args = parser.parse_args()
 
-    main(args.json_files, T=args.temperature, top_n=args.top_n, out_dir=args.out_dir)
+    # Automatically collect all .json files
+    if args.recursive:
+        json_files = glob.glob("**/*.json", recursive=True)
+    else:
+        json_files = glob.glob("*.json")
+
+    if not json_files:
+        print("No JSON files found in the current directory.")
+        sys.exit(1)
+
+    print(f"Found {len(json_files)} JSON files:")
+    for f in json_files:
+        pol=2
+        #print(f"  {f}")
+
+
+    main(json_files, T=args.temperature, top_n=args.top_n, out_dir=args.out_dir)
 
 if __name__ == "__main__":
     cli_main()
