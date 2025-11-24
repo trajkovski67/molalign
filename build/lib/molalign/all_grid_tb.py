@@ -41,7 +41,7 @@ def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB", charge=0):
 
     # Initialize calculator with charge (correct way)
     calc = Calculator(method, np.array(atomic_numbers), coords_bohr, charge=charge)
-
+    calc.add("alpb-solvation", 78.4)
     # Capture stdout to avoid printing
     f = io.StringIO()
     with contextlib.redirect_stdout(f):

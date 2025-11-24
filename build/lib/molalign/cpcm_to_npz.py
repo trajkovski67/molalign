@@ -39,38 +39,63 @@ def read_atoms(filename):
     return atoms_array
 
 def read_gridpoints(filename, atoms_array):
-    """Read gridpoints and map atomic number using atom index."""
+    """
+    General parser:
+    - First 3 columns: x, y, z (floats)
+    - Last column: atom index (integer)
+    - Any number of columns in between is ignored
+    """
+
     coords = []
     atom_indices = []
-    # first 3 floats = x,y,z, skip next 6 floats, last int = atom index
-    pattern = re.compile(
-        r'\s*([-+]?\d*\.\d+(?:[Ee][-+]?\d+)?)\s+'  # X
-        r'([-+]?\d*\.\d+(?:[Ee][-+]?\d+)?)\s+'      # Y
-        r'([-+]?\d*\.\d+(?:[Ee][-+]?\d+)?)\s+'      # Z
-        r'(?:[\dEe\.\-+]+\s+){6}'                   # skip 6 floats
-        r'(\d+)'                                    # atom index
-    )
 
     read_surface = False
+
     with open(filename, 'r') as f:
         for line in f:
             if "SURFACE POINTS" in line:
                 read_surface = True
                 continue
-            if read_surface:
-                if line.strip().startswith('#') or not line.strip():
-                    continue
-                m = pattern.match(line)
-                if m:
-                    x, y, z, idx = m.groups()
-                    idx = int(idx)
-                    coords.append([float(x), float(y), float(z)])
-                    atom_indices.append(idx)
-    coords = np.array(coords)*BOHR_TO_ANG
-    atom_indices = np.array(atom_indices)
-    # Map atomic number from atoms_array
+
+            if not read_surface:
+                continue
+
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+
+            # Split line into tokens
+            parts = line.split()
+
+            # Need at least 4 columns: x, y, z, atom_index
+            if len(parts) < 4:
+                continue
+
+            try:
+                # First three floats
+                x = float(parts[0])
+                y = float(parts[1])
+                z = float(parts[2])
+
+                # Last token = atom index (integer)
+                idx = int(parts[-1])
+
+            except ValueError:
+                # Skip lines that don’t parse correctly
+                continue
+
+            coords.append([x, y, z])
+            atom_indices.append(idx)
+
+    coords = np.array(coords) * BOHR_TO_ANG
+    atom_indices = np.array(atom_indices, dtype=int)
+
+    # Map atomic number using atom index from atoms_array
     atomic_numbers = atoms_array[atom_indices, 3]
+
+    # Stack into (x, y, z, Z, atom_index)
     grid_array = np.column_stack((coords, atomic_numbers, atom_indices))
+
     return grid_array
 
 def save_txt(filename, atoms_array, grid_array):

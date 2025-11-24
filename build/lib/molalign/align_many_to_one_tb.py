@@ -20,6 +20,9 @@ def run_tblite_sp(coords_angstrom, atomic_numbers, method="GFN2-xTB", charge=0):
     """Run TB-lite single-point, suppress verbose output, supports charge."""
     coords_bohr = np.array(coords_angstrom) / BOHR_TO_ANG
     calc = Calculator(method, np.array(atomic_numbers), coords_bohr, charge=charge)
+    #calc.set("accuracy", 1.0)
+    #calc.set("max-iter", 500)
+    calc.add("alpb-solvation",78.4)
     f = io.StringIO()
     with contextlib.redirect_stdout(f):
         res = calc.singlepoint()

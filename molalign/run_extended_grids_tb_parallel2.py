@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-run_extended_grids_tb_parallel2.py
+run_molalign_shifted_tb.py
 
-Wrapper for molalign + TB-lite with shifted solute grids.
-Now with:
-- tqdm progress bar over shifts
-- cleaner logging
+Generalized wrapper for molalign + TB-lite:
+- Converts CPCM → NPZ
+- Shifts solute grids along atom normals for arbitrary shift values
+- Runs TB-lite SP calculations for all shifts
+- Saves results in separate NPZ and JSON files
 """
 
 import argparse
@@ -13,8 +14,6 @@ import subprocess
 import os
 import sys
 import numpy as np
-from tqdm import tqdm
-
 
 # ---------- Grid shift utilities ----------
 
@@ -54,7 +53,7 @@ def save_shifted_npz(orig_npz, shift, out_file, atoms=None, grids=None, normals=
     shifted_grids[:, :3] = grids[:, :3] + normals * shift
 
     np.savez(out_file, atoms=atoms, grids=shifted_grids)
-    print(f"    → Saved shifted NPZ ({shift:+.2f} Å): {out_file}")
+    print(f"*** Saved shifted NPZ ({shift:+} Å): {out_file}")
     return out_file
 
 
@@ -74,7 +73,7 @@ def main():
     parser.add_argument("--angles", default="0,90,180,270", help="Comma-separated rotation angles")
     parser.add_argument("--charge", type=int, default=0, help="Total charge for TB-lite calculation")
     parser.add_argument(
-        "--shifts", type=float, nargs="+",
+        "--shifts", type=float, nargs="+",  # <-- Accept space-separated floats
         default=[-1.0, 0.0, 1.0],
         help="Shifts along normals in Å (space-separated, e.g. -1 0 1)"
     )
@@ -88,15 +87,6 @@ def main():
     angles = args.angles
     charge = args.charge
     shifts = args.shifts
-
-    print("\n========== MOLALIGN + TBLITE (SHIFTED GRIDS) ==========")
-    print(f"Solute CPCM : {solute}")
-    print(f"Solvent CPCM: {solvent}")
-    print(f"Output dir  : {out_dir}")
-    print(f"Angles      : {angles}")
-    print(f"Charge      : {charge}")
-    print(f"Shifts (Å)  : {shifts}")
-    print("-------------------------------------------------------")
 
     # ---------- Step 1: CPCM → NPZ ----------
     for molfile in [solute, solvent]:
@@ -118,14 +108,12 @@ def main():
     solvent_npz = os.path.join(out_dir, f"{os.path.splitext(os.path.basename(solvent))[0]}_data.npz")
 
     # ---------- Step 2: Generate shifted solute grids (preload once) ----------
-    print("\nLoading solute NPZ and precomputing normals…")
     solute_data = np.load(solute_npz, allow_pickle=True)
     atoms_solute = solute_data["atoms"]
     grids_solute = solute_data["grids"]
     normals_solute = compute_normals(grids_solute, atoms_solute)
 
     variant_files = []
-    print("\nGenerating shifted solute NPZ variants:")
     for s in shifts:
         suffix = f"shift{sanitize_filename(s)}" if s != 0 else "original"
         out_npz = os.path.join(out_dir, f"solute_data_{suffix}.npz")
@@ -138,14 +126,11 @@ def main():
             normals=normals_solute,
         )
         out_json = os.path.join(out_dir, f"tb_lite_results_{suffix}.json")
-        variant_files.append((s, out_npz, out_json))
+        variant_files.append((out_npz, out_json))
 
-    # ---------- Step 3: Run align-grid-tb for each shift ----------
-    print("\nRunning align-grid-tb-parallel-2 for all shifts:\n")
-    for s, npz_file, out_json in tqdm(variant_files, desc="Shifts", unit="shift"):
-        print(f"\n*** Shift {s:+.2f} Å")
-        print(f"    NPZ : {npz_file}")
-        print(f"    OUT : {out_json}")
+    # ---------- Step 3: Run align-grid-tb ----------
+    for npz_file, out_json in variant_files:
+        print(f"\n*** Running: align-grid-tb-parallel {npz_file} {solvent_npz} {angles} --charge {charge} --out {out_json}")
         try:
             subprocess.run([
                 "align-grid-tb-parallel-2", npz_file, solvent_npz,
@@ -156,7 +141,7 @@ def main():
             print(f"ERROR: align-grid-tb failed for {npz_file}: {e}", file=sys.stderr)
 
     print("\n*** All computations complete. Results saved in:")
-    for _, _, out_json in variant_files:
+    for _, out_json in variant_files:
         print(f"    {out_json}")
 
 
