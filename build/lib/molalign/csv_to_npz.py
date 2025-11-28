@@ -290,19 +290,19 @@ def main():
         variant_files.append((scale, solute_npz, out_json))
 
     # ----- Step 4: Run align-grid-tb-parallel-2 for each scale ----- #
-    print("\nRunning align-grid-tb-parallel for all scales:\n")
+    print("\nRunning align-grid-tb-parallel-2 for all scales:\n")
     for scale, npz_file, out_json in tqdm(variant_files, desc="TB-lite", unit="run"):
         print(f"\n*** Scale {scale:.3f}")
         print(f"    NPZ : {npz_file}")
         print(f"    OUT : {out_json}")
         try:
             subprocess.run([
-                "align-grid-tb-parallel", npz_file, solvent_npz,
+                "align-grid-tb-parallel-2", npz_file, solvent_npz,
                 args.angles, "--charge", str(args.charge),
                 "--out", out_json
             ], check=True)
         except subprocess.CalledProcessError as e:
-            print(f"ERROR: align-grid-tb-parallel failed for {npz_file}: {e}", file=sys.stderr)
+            print(f"ERROR: align-grid-tb-parallel-2 failed for {npz_file}: {e}", file=sys.stderr)
 
     print("\n*** All computations complete. Results saved in:")
     for scale, _, out_json in variant_files:

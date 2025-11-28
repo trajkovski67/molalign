@@ -17,7 +17,7 @@ import numpy as np
 import multiprocessing as mp
 from tqdm import tqdm
 
-import molalign.align_many_to_one_tb_parallel2 as align_mod
+import molalign.align_many_to_one_tb_parallel as align_mod
 
 
 BOHR_TO_ANG = 0.52917721092

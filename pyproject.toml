@@ -8,6 +8,7 @@ requires-python = ">=3.9"
 dependencies = ["numpy", "scipy"]
 [project.scripts]
 cpcm-reader = "molalign.cpcm_to_npz:main"
+csv-reader = "molalign.csv_to_npz:main"
 #align-grid = "molalign.all_grid:main"
 #xtb-scan = "molalign.xtb_scan:main"
 #xtb-extract = "molalign.extract_xtb_results:main"
@@ -26,7 +27,7 @@ align-grid-tb-parallel = "molalign.all_grid_tb_parallel:cli_main"
 align-grid-tb-parallel-2 = "molalign.all_grid_tb_parallel2:cli_main"
 molalign-extended-parallel = "molalign.run_extended_grids_tb_parallel:main"
 #align-grid-tb-two-same = "molalign.all_grid_tb_two_solvents:cli_main"
-
+molalign = "molalign.driver:main"
 molalign-extended-parallel-2 = "molalign.run_extended_grids_tb_parallel2:main"
 #molalign-parallel ="molalign.merged:main"
 bolt = "molalign.bolt:cli_main"

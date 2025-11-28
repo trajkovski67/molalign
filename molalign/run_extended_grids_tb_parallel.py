@@ -148,7 +148,7 @@ def main():
         print(f"    OUT : {out_json}")
         try:
             subprocess.run([
-                "align-grid-tb-parallel-2", npz_file, solvent_npz,
+                "align-grid-tb-parallel", npz_file, solvent_npz,
                 angles, "--charge", str(charge),
                 "--out", out_json
             ], check=True)
