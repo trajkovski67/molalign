@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Kirkwood–Buff integral from TB-lite grids + dV_all.csv
-GLOBAL-NORMALIZED VERSION (Option A)
+Kirkwood–Buff functional from TB-lite grids (Z-based hybrid model)
 
-g_i = Z_i / <Z>
+Z_i = Σ_α exp(-β ΔU_iα)
+Z_ref = <Z> = average over gridpoints
+g_i = Z_i / Z_ref
 
-Where <Z> is the global average over ALL gridpoints and ALL scales.
-This produces extremely stable g-values.
+ENERGY-WEIGHTED KB:
 
-Energy capping:
-    For scales > 1.0:
-        ΔU_iα = max(ΔU_iα, cap_low)
+⟨ΔU_i⟩ = Σ_α ΔU_iα exp(-β ΔU_iα) / Z_i
+
+G12 = Σ_i (g_i - 1) · ρ · ΔV_i · ⟨ΔU_i⟩
+
+ΔG = -kB T · G12
 """
 
 import os
@@ -24,9 +26,9 @@ import pandas as pd
 # ------------------ CONSTANTS ------------------
 
 HARTREE_TO_KCAL = 627.5095
-kB = 0.0019872041              # kcal/mol/K
-RHO_N_DEFAULT = 0.033456       # water number density [1/Å^3]
-COORD_TOL = 1e-4               # Å tolerance for matching
+kB = 0.0019872041
+RHO_N_DEFAULT = 0.033456
+COORD_TOL = 1e-4
 
 
 # ------------------ HELPERS ------------------
@@ -43,77 +45,54 @@ def load_dV(fn):
     required = ["scale", "x", "y", "z", "dV_A3"]
     for c in required:
         if c not in df.columns:
-            raise RuntimeError("dV file missing required column: " + c)
+            raise RuntimeError("dV file missing column: " + c)
     return df
 
 
 def match_gp(scale, x, y, z, dV_df):
-    df_s = dV_df[np.isclose(dV_df["scale"], scale)]
-    if df_s.empty:
+    block = dV_df[np.isclose(dV_df["scale"], scale)]
+    if block.empty:
         return None
-    dx = np.abs(df_s["x"].values - x)
-    dy = np.abs(df_s["y"].values - y)
-    dz = np.abs(df_s["z"].values - z)
-    mask = (dx < COORD_TOL) & (dy < COORD_TOL) & (dz < COORD_TOL)
-    idx = df_s.index[mask]
+    dx = np.abs(block["x"].values - x)
+    dy = np.abs(block["y"].values - y)
+    dz = np.abs(block["z"].values - z)
+    m = (dx < COORD_TOL) & (dy < COORD_TOL) & (dz < COORD_TOL)
+    idx = block.index[m]
     return int(idx[0]) if len(idx) else None
 
 
-# ------------------ ENERGY EXTRACTION WITH CAP ------------------
+# ------------------ ENERGY EXTRACTION ------------------
 
-def extract_interaction_energies(jdata, scale, cap_low):
-    """
-    Extract ΔU_iα (interaction energies), apply cap only for scale > 1.0:
-
-        if ΔU_iα > cap_low   → set ΔU_iα = cap_low (usually cap_low = -1 kcal/mol)
-    """
-
+def extract_interaction_energies(jdata):
     coords = np.array(jdata["molA_grids_xyz"], float)
     E_sol = float(jdata["solute"]["energy_Eh"])
     E_solv = float(jdata["solvent"]["energy_Eh"])
 
     deltaE = {}
 
-    for key, val in jdata.items():
-        if not key.startswith("gp"):
+    for k, v in jdata.items():
+        if not k.startswith("gp"):
             continue
         try:
-            i = int(key[2:])
+            i = int(k[2:])
         except:
             continue
 
-        block = val.values() if isinstance(val, dict) else val
+        block = v.values() if isinstance(v, dict) else v
         dEs = []
 
         for entry in block:
             try:
                 Ec = float(entry["energy_Eh"])
-                dU = (Ec - (E_sol + E_solv)) * HARTREE_TO_KCAL
+                dU = (Ec - (E_sol + E_solv)) * HARTREE_TO_KCAL + 0.679
+                dEs.append(dU)
             except:
                 continue
 
-            # CAP APPLIED ONLY FOR OUTER SCALES
-            if scale > 10.0:
-                if dU > cap_low:
-                    dU = cap_low
-
-            dEs.append(dU)
-
         if dEs:
             deltaE[i] = np.array(dEs, float)
-            deltaE[i]=deltaE[i]+0.69
 
     return coords, deltaE
-
-
-# ------------------ Boltzmann Z_i ------------------
-
-def compute_Z(deltaE, beta):
-    Z = {}
-    for i, dEs in deltaE.items():
-        w = np.exp(-beta * dEs)
-        Z[i] = float(np.sum(w))
-    return Z
 
 
 # ------------------ MAIN ------------------
@@ -125,73 +104,90 @@ def main():
     parser.add_argument("--json-glob", default="tb_lite_results_scale*.json")
     parser.add_argument("--temperature", type=float, default=298.15)
     parser.add_argument("--steepness", type=float, default=1.0)
-    parser.add_argument("--cap-low", type=float, default=-5.0,
-                        help="Minimum allowed ΔU for scale>1.0 (default -5 kcal/mol)")
     parser.add_argument("--rho-n", type=float, default=RHO_N_DEFAULT)
     parser.add_argument("--out-per-grid", default="kb_per_grid.csv")
     parser.add_argument("--out-per-scale", default="kb_per_scale.csv")
     args = parser.parse_args()
 
     T = args.temperature
-    beta_eff = args.steepness / (kB * T)
-    cap_low = args.cap_low
-    rho_n = args.rho_n
+    beta = args.steepness / (kB * T)
+    rho = args.rho_n
 
-    print("\n=========== KB RUN (GLOBAL NORMALIZATION, cap) ===========")
-    print(f"T = {T} K  (kBT = {kB*T:.6f} kcal/mol)")
-    print(f"β_eff = {beta_eff:.6f}")
-    print(f"Energy cap for scales > 1.0:  ΔU > {cap_low} → {cap_low}")
-    print("===========================================================\n")
+    print("\n=========== KB RUN (ENERGY-WEIGHTED HYBRID MODEL) ===========")
+    print(f"T = {T} K")
+    print(f"β = {beta:.6f}")
+    print("g_i = Z_i / <Z>")
+    print("G12 = Σ (g_i - 1) · ρ · ΔV · <ΔU>")
+    print("============================================================\n")
 
     dV_df = load_dV(args.dv_file)
-    json_files = sorted(glob.glob(args.json_glob))
+    files = sorted(glob.glob(args.json_glob))
 
-    entries = []   # (scale, i, x,y,z, Z_i)
+    entries = []
+    Z_all = []
 
-    # ---------- PASS 1: Compute all Z_i ----------
-    for jf in json_files:
-        scale = detect_scale(os.path.basename(jf)) or 1.0
-        print(f"[INFO] Reading {jf}   scale={scale}")
+    # -------- PASS 1: COMPUTE Z_i AND <ΔU_i> --------
+    for fn in files:
+        scale = detect_scale(fn) or 1.0
+        print(f"[INFO] Loading {fn} (scale={scale})")
 
-        with open(jf) as f:
+        with open(fn) as f:
             jdata = json.load(f)
 
-        coords, deltaE = extract_interaction_energies(jdata, scale, cap_low)
-        
-        Z = compute_Z(deltaE, beta_eff)
+        coords, energies = extract_interaction_energies(jdata)
 
-        for i, Zi in Z.items():
-            if i < coords.shape[0]:
-                x, y, z = coords[i]
-                entries.append((scale, i, x, y, z, Zi))
+        for i, dEs in energies.items():
 
-    # ----------- GLOBAL NORMALIZATION -----------
-    Z_all = [Zi for (_, _, _, _, _, Zi) in entries]
-    Z_avg = float(np.mean(Z_all))
+            if i >= coords.shape[0]:
+                continue
 
-    print(f"\n[INFO] Global Z_avg = {Z_avg:.6e}\n")
+            x, y, z = coords[i]
+            idx = match_gp(scale, x, y, z, dV_df)
+            if idx is None:
+                continue
 
-    # ---------- PASS 2: Compute g_i = Z_i / Z_avg, accumulate G12 ----------
+            dV = float(dV_df.loc[idx, "dV_A3"])
+            #Ui_avg = float(np.mean(dEs))
+
+            # beta from your code: beta = 1/(kBT) or 1/(RT) depending on units
+                       
+           
+            weights = np.exp(-beta * dEs)
+            Zi = float(np.sum(weights))
+
+            # --- NEW: skip grids with zero / invalid partition function ---
+            if Zi <= 0.0 or not np.isfinite(Zi):
+                continue
+
+            Ui_avg = float(np.sum(dEs * weights) / Zi)
+            Zi = float(np.exp(-beta * Ui_avg))
+
+            # also skip if Ui_avg is NaN/inf (paranoia)
+            if not np.isfinite(Ui_avg):
+                continue
+
+            entries.append((scale, i, x, y, z, Zi, dV, Ui_avg))
+            Z_all.append(Zi)
+
+    if not Z_all:
+        raise RuntimeError("No valid gridpoints found (all Z_i underflowed / invalid).")
+
+    Z_avg = float(np.sum(Z_all))
+    print(f"[INFO] Global <Z> = {Z_avg:.6e}\n")
+
+    # -------- PASS 2: ENERGY-WEIGHTED KB --------
     per_grid = []
-    per_scale_acc = {}
+    per_scale = {}
+    G12 = 0.0
 
-    G12_total = 0.0
-
-    for scale, i, x, y, z, Zi in entries:
-
-        idx = match_gp(scale, x, y, z, dV_df)
-        if idx is None:
-            continue
-
-        dV = float(dV_df.loc[idx, "dV_A3"])
+    for scale, i, x, y, z, Zi, dV, Ui_avg in entries:
 
         g = Zi #/ Z_avg
-        gm1 = g-1
-        dG12_i = gm1 * dV
+        dG = (g - 0.0) * dV * rho # Ui_avg #* rho
 
-        G12_total += dG12_i
-        per_scale_acc.setdefault(scale, 0.0)
-        per_scale_acc[scale] += dG12_i
+        G12 += dG
+        per_scale.setdefault(scale, 0.0)
+        per_scale[scale] += dG
 
         r = float(np.sqrt(x*x + y*y + z*z))
 
@@ -200,37 +196,34 @@ def main():
             "gp": i,
             "r": r,
             "Z_i": Zi,
+            "U_avg": Ui_avg,
             "g_i": g,
-            "g_minus_1": gm1,
             "dV_A3": dV,
-            "dG12_i_A3": dG12_i
+            "rho": rho,
+            "dG12_i": dG
         })
 
-    # Save per-grid CSV
     pd.DataFrame(per_grid).to_csv(args.out_per_grid, index=False)
-    print(f"[INFO] Per-grid KB written → {args.out_per_grid}")
+    print(f"[INFO] Per-grid → {args.out_per_grid}")
 
-    # ---------- PER-SCALE SUMMARY ----------
-    rows_sc = []
-    for s in sorted(per_scale_acc.keys()):
-        Gs = per_scale_acc[s]
-        dGs = -kB * T * rho_n * Gs
-        rows_sc.append({
+    rows = []
+    for s in sorted(per_scale):
+        rows.append({
             "scale": s,
-            "G12_scale_A3": Gs,
-            "dG_KB_scale_kcal": dGs
+            "G12_scale": per_scale[s]
         })
 
-    pd.DataFrame(rows_sc).to_csv(args.out_per_scale, index=False)
-    print(f"[INFO] Per-scale summary → {args.out_per_scale}")
+    pd.DataFrame(rows).to_csv(args.out_per_scale, index=False)
+    print(f"[INFO] Per-scale → {args.out_per_scale}")
 
-    # ---------- FINAL KB RESULT ----------
-    dG_KB_total = -kB * T * rho_n * G12_total
+    # -------- FINAL ENERGY-WEIGHTED FREE ENERGY --------
+    dG_total = -kB * T * G12
 
-    print("\n============= KB RESULTS =============")
-    print(f"Total G12     = {G12_total:.6f} Å³")
-    print(f"ΔG_KB (total) = {dG_KB_total:.6f} kcal/mol")
-    print("======================================\n")
+    print("\n============ FINAL RESULT ============")
+    print(f"G12(energy) = {G12:.6f}")
+    print(f"ΔG = {dG_total:.6f} kcal/mol")
+    print("=====================================\n")
+
 
 if __name__ == "__main__":
     main()
